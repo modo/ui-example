@@ -1,4 +1,4 @@
-<script src="/lib/js/scripts-min.js"></script>
+<script src="/lib/js/min/scripts-min.js"></script>
 
 <!--[if lt IE 7 ]>
 	<script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
