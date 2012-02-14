@@ -29,14 +29,70 @@
 			            <article id="mainCol" class="span7">
 			            	<h1>Account Settings</h1>
 			            	
-			            	<div class="section-header">
-			            		<h3 class="pull-left">Name</h3>
-			            		<a class="pull-right" href="">change</a>
-			            	</div>
+			            	<form class="form-horizontal">
+		            			<fieldset>
+		            				<div class="control-group warning">
+		            					<label class="control-label">First name</label>
+		            					<div class="controls">
+		            						<input type="text" class="input-large" />
+		            					</div>
+		            				</div>
+		            				
+		            				<div class="control-group error">
+		            					<label class="control-label">Last name</label>
+		            					<div class="controls">
+		            						<input type="text" class="input-large" />
+		            					</div>
+		            				</div>
+
+		            				<div class="btn-row">
+		            					<div class="controls">
+			            					<a href="#" class="btn btn-small btn-primary">Save</a>
+			            					<a href="#" class="btn btn-small btn-info">Cancel</a>
+		            					</div>
+		            				</div>
+		            			</fieldset>
+		            		</form>
 			            	
-			            	<p>Andre Poremski</p>
-			            	
-			            	<a class="btn" href="#"><i class="icon-add icon-16"></i> Button text</a>
+			            	<section class="account-setting">
+				            	<div class="section-header">
+				            		<h3 class="pull-left">Name</h3>
+				            		<a class="pull-right" href="">change</a>
+				            	</div>
+				            	
+				            	<div class="summary">
+				            		<p>Andre Poremski</p>
+				            	</div>
+				            	
+				            	<div class="edit well">
+				            		<div class="alert alert-error"><a class="close">×</a>Please correct the errors below.</div>
+				            		
+				            		<form class="form-horizontal">
+				            			<fieldset>
+				            				<div class="control-group">
+				            					<label class="control-label">First name</label>
+				            					<div class="controls">
+				            						<input type="text" class="input-large" />
+				            					</div>
+				            				</div>
+				            				
+				            				<div class="control-group success">
+				            					<label class="control-label">Last name</label>
+				            					<div class="controls">
+				            						<input type="text" class="input-large" />
+				            					</div>
+				            				</div>
+
+				            				<div class="btn-row">
+				            					<div class="controls">
+					            					<a href="#" class="btn btn-small btn-primary">Save</a>
+					            					<a href="#" class="btn btn-small btn-info">Cancel</a>
+				            					</div>
+				            				</div>
+				            			</fieldset>
+				            		</form>
+				            	</div>
+			            	</section>
 			            	<!--
 			            	<form class="form-horizontal">
 			            		<fieldset>
