@@ -48,7 +48,7 @@
 				
 			<form method="post" action="/search/" class="mini-search well form-inline">
 				<input type="text" class="input-medium" placeholder="Search the site" />
-				<button type="submit" class="btn btn-clear"><i class="icon-search"></i></button>
+				<button type="submit" class="btn btn-clear btn-small"><i class="icon-search"></i></button>
 			</form>
 		</div>
 	</header>
