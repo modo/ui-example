@@ -42,10 +42,23 @@
 			            	
 			            	</ul>
 			            	
-			            	
-			            	
 			            	<h3>Greenbuild, Education, Advocacy and Other Programs</h3>
 			            	<p>USGBC’s members-only committees and working groups are also central to the development of other programs and initiatives that support USGBC’s mission. From programming at Greenbuild to our work with building codes to our financial and governance policies, our member committees are at the core of everything we do at USGBC. USGBC’s Board of Directors is also made up of employees of member companies.</p>
+			            	
+			            	<div class="tabbable">
+			            		<ul class="nav nav-tabs">
+			            			<li class="active"><a href="#1" data-toggle="tab">Section 1</a></li>
+			            			<li><a href="#2" data-toggle="tab">Section 2</a></li>
+			            		</ul>
+			            		<div class="tab-content">
+			            			<div class="tab-pane active" id="1">
+			            				<p>Proin interdum tellus sed enim viverra ut commodo lectus tincidunt. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam ac lacus nunc, sed consequat eros. Nunc interdum molestie felis quis hendrerit. Maecenas lacus leo, tempus sed eleifend ut, tempus id enim. Cras bibendum ante vel arcu tempus iaculis. Nulla facilisi. Suspendisse nisl neque, adipiscing et faucibus nec, aliquam ac erat. Morbi erat velit, posuere eu bibendum nec, gravida quis nunc. Nullam condimentum, mauris at commodo pharetra, nisl ipsum rutrum massa, vel vehicula sem sapien ut lorem.</p>
+			            			</div>
+			            			<div class="tab-pane" id="2">
+			            				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a tellus orci. Suspendisse at cursus diam. Vivamus eu venenatis urna. Nam cursus lacinia enim non mattis. Aliquam fermentum nisi at turpis consequat sit amet semper ante consectetur. Donec nulla sem, ultricies quis malesuada quis, feugiat a dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc vulputate, massa ut eleifend consectetur, risus nunc eleifend orci, vel convallis mauris velit eget purus.</p>
+			            			</div>
+			            		</div>
+			            	</div>
 			            	
 			            	<p>Additionally, review of third-party educational programs for USGBC endorsement through the Education Provider network is done exclusively by employees of member organizations, who earn free LEED Professional Credential maintenance credit for their volunteer participation. <br /><a href="#" class="more-link small-link">More</a></p>
 			            	
