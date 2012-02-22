@@ -1,7 +1,7 @@
 <h1 class="section-header">Typography</h1>
 
 <div class="row">
-	<div class="span5">
+	<div class="span4">
 		<h1>Header 1</h1>
 		<h2>Header 2</h2>
 		<h3>Header 3</h3> 
@@ -9,34 +9,73 @@
 		<h5>Header 5</h5> 
 		<h6>Header 6</h6>
 	</div>
-	<div class="span5">
-		<h3>Header tags</h3>
-		<p>Header tags are all styled with the primary color in an array of sizes. Header tags have top-margin as well as lower margin, and the top margin is removed if the header is a <code>:first-child</code></p>
 	
-		<pre class="prettyprint linenums">
+	<div class="span6">
+		<div class="box">
+			<h3>Header tags</h3>
+			<p>Header tags are all styled with the primary color in an array of sizes. <strong>Header tags have top-margin as well as lower margin, and the top margin is removed if the header is a</strong> <code>:first-child</code></p>
+	
+			<pre class="prettyprint linenums">
 <? cleanup_code('<h1>Header 1</h1>
 <h2>Header 2</h2>
 <h3>Header 3</h3> 
 <h4>Header 4</h4>
 <h5>Header 5</h5> 
-<h6>Header 6</h6>') ?>
-		</pre>
+<h6>Header 6</h6>') ?></pre>
+			
+			
+			<h4>Psuedo-headers</h4>
+			<p>In the case that the desired visual type-size differs from the ideal HTML tag, use the <code>.header-1</code> - <code>.header-6</code> tags. Include them in any other header styling for complete support.</p>
+			
+<pre class="prettyprint linenums">
+<? cleanup_code('<h2 class="header-1">I look like an H1</h2>') ?>
+</pre>			
+			
+			
+		</div>
+		
 	</div>
 </div>
 
-<hr class="white-space" />
-			            	
-<hgroup>
-	<p class="header-1">This h1 is green only because it is wrapped in a header group</p>
-	<p class="header-2">This is an h2 kicker, it's light gray because it's in an hgroup. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-</hgroup>
+<hr class="thick-rule" />
 
-<h3>LEED Development</h3>
-<p>The LEED rating systems are transforming the marketplace because they are rigorous while still being attainable. This important balance is only possible because LEED is created by our members, who represent the industry. Employees of member companies are able to serve on the committees that develop the LEED rating systems, and all new and updated rating systems must first be approved by our members’ vote. <br />
+<div class="row">
+	<div class="span10">
+		<hgroup>
+			<h1>Donec fringilla est vitae urna vulputate laoreet</h1>
+			<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla est vitae urna vulputate laoreet</h2>
+		</hgroup>
+	</div>
+	
+	<div class="span10">
+		<div class="box">
+			<p>Specific header tweaks are done as passively as possible. This example styles the header tags like an intro header &amp; kicker based on the fact that they're in an <code>&lt;hgroup&gt;</code>
+			
+<pre class="prettyprint linenums">
+<? cleanup_code('<hgroup>
+	<h1>Donec fringilla est vitae urna vulputate laoreet</p>
+	<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla est vitae urna vulputate laoreet</p>
+</hgroup>') ?>
+			</pre>
+			
+		</div>		
+	</div>	
+</div>
 
-<a href="#" class="more-link small-link">More
-<i class="elsewhere"></i>
 
-</a>
+<hr class="thick-rule" />
 
-</p>
+
+<h3>Typography utilities</h3>
+<p>There are a number of classes available for tweaking typography.</p>
+
+<dl class="lined-list">
+	<dt><code>.small-text</code></dt>
+	<dd> Decreases font size of an element to 85% of the baseFontSize variable</dd>
+	<dt><code>.smaller-text</code></dt>
+	<dd>Decreases font size of an element to 78.5% of the baseFontSize variable</dd>
+	<dt><code>.header-1, .header2 ... .header-6</code></dt>
+	<dd>Used to replicate the styling of header tags on other tags. Include them in any other header styling for complete support.</dd>
+	<dt><code>.section-header</code></dt>
+	<dd>Adds an underline and extra padding below a header tag, used for creating a dramatic content separation. Can also be put on a div, with a header tag nested in it with floats left or right</dd>
+</dl>
