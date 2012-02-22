@@ -6328,25 +6328,25 @@ hgroup .header-2 {
   opacity: 0.6;
   filter: alpha(opacity=60);
 }
-#sub-section-nav ul.filterNav li {
+#sub-section-nav ul.filter-nav li {
   border-width: 1px 0 0 0;
   margin: 0;
   padding: 0;
 }
-#sub-section-nav ul.filterNav li a {
+#sub-section-nav ul.filter-nav li a {
   padding: 7px 8px;
   margin: 2px 0;
 }
-#sub-section-nav ul.filterNav li:first-child {
+#sub-section-nav ul.filter-nav li:first-child {
   border-top: none;
 }
-#sub-section-nav ul.filterNav li:last-child {
+#sub-section-nav ul.filter-nav li:last-child {
   border-width: 1px 0;
 }
-#sub-section-nav ul.filterNav li.active {
+#sub-section-nav ul.filter-nav li.active {
   border: none;
 }
-#sub-section-nav ul.filterNav li.active  > a {
+#sub-section-nav ul.filter-nav li.active  > a {
   background: #464748;
   color: white;
   text-shadow: 0 -1px 0 #000000;
@@ -6366,13 +6366,13 @@ hgroup .header-2 {
   -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.35) inset, 0 -1px 0 rgba(0, 0, 0, 0.35) inset, 1px 0 0 rgba(0, 0, 0, 0.35) inset, -1px 0 0 rgba(0, 0, 0, 0.35) inset, 0 2px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.35);
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.35) inset, 0 -1px 0 rgba(0, 0, 0, 0.35) inset, 1px 0 0 rgba(0, 0, 0, 0.35) inset, -1px 0 0 rgba(0, 0, 0, 0.35) inset, 0 2px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.35);
 }
-#sub-section-nav ul.filterNav li.active + li {
+#sub-section-nav ul.filter-nav li.active + li {
   border-top-width: 0;
 }
-#sub-section-nav ul.filterNav li:first-child.active + li {
+#sub-section-nav ul.filter-nav li:first-child.active + li {
   border-top: 1px solid #eee;
 }
-#sub-section-nav ul.filterNav li:first-child.active > a {
+#sub-section-nav ul.filter-nav li:first-child.active > a {
   background: none;
   color: #2f3031;
   -webkit-box-shadow: none;

@@ -29,6 +29,7 @@ function cleanup_code($code) {
 					<div class="row">
 			            <article id="mainCol" class="span10">
 			            	
+			            	<!-- Travis adds here -->
 			            	<section><?php include('lib/inc/demos/rating-widgets.php') ?></section>
 			            	<section><?php include('lib/inc/demos/typography.php') ?></section>
 			            	<section><?php include('lib/inc/demos/columns.php') ?></section>
@@ -38,6 +39,8 @@ function cleanup_code($code) {
 			            	<section><?php include('lib/inc/demos/buttons.php') ?></section>
 			            	<section><?php include('lib/inc/demos/columns.php') ?></section>
 			            	<section><?php include('lib/inc/demos/images.php') ?></section>
+			            	
+			            	<!-- Josh adds here -->
 			            			            	
 			            </article>			            
 					</div>
