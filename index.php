@@ -27,69 +27,22 @@ function cleanup_code($code) {
 				<div class="span10">
 					
 					<div class="row">
-			            <article id="mainCol" class="span7">
-			            	<hgroup>
-			            		<h1>Membership puts you in the driver’s seat of the green building movement.</h1>
-			            		<h2>Through committee involvement, LEED balloting, networking and other opportunities for involvement, the green building movement belongs to our members. You control this conversation through your participation in our community.</h2>
-			            	</hgroup>
+			            <article id="mainCol" class="span10">
 			            	
-			            	<h3>LEED Development</h3>
-			            	<p>The LEED rating systems are transforming the marketplace because they are rigorous while still being attainable. This important balance is only possible because LEED is created by our members, who represent the industry. Employees of member companies are able to serve on the committees that develop the LEED rating systems, and all new and updated rating systems must first be approved by our members’ vote. <br /><a href="#" class="more-link small-link">More</a></p>
+			            	<!-- Travis adds here -->
+			            	<section><?php include('lib/inc/demos/rating-widgets.php') ?></section>
+			            	<section><?php include('lib/inc/demos/typography.php') ?></section>
+			            	<section><?php include('lib/inc/demos/columns.php') ?></section>
+			            	<section><?php include('lib/inc/demos/tables.php') ?></section>
+			            	<section><?php include('lib/inc/demos/lists.php') ?></section>
+			            	<section><?php include('lib/inc/demos/boxes.php') ?></section>
+			            	<section><?php include('lib/inc/demos/buttons.php') ?></section>
+			            	<section><?php include('lib/inc/demos/columns.php') ?></section>
+			            	<section><?php include('lib/inc/demos/images.php') ?></section>
 			            	
-			            	<ul>
-			            		<li>Aenean ornare dignissim sapien sed pharetra ligula laoreet eu</li>
-			            		<li>Nullam ullamcorper felis a sem rutrum a posuere eros euismod</li>
-			            		<li>Lorem ipsum dolor sit amet consectetur adipiscing elit</li>
-			            	
-			            	</ul>
-			            	
-			            	<h3>Greenbuild, Education, Advocacy and Other Programs</h3>
-			            	<p>USGBC’s members-only committees and working groups are also central to the development of other programs and initiatives that support USGBC’s mission. From programming at Greenbuild to our work with building codes to our financial and governance policies, our member committees are at the core of everything we do at USGBC. USGBC’s Board of Directors is also made up of employees of member companies.</p>
-			            	
-			            	<div class="tabbable">
-			            		<ul class="nav nav-tabs">
-			            			<li class="active"><a href="#1" data-toggle="tab">Section 1</a></li>
-			            			<li><a href="#2" data-toggle="tab">Section 2</a></li>
-			            		</ul>
-			            		<div class="tab-content">
-			            			<div class="tab-pane active" id="1">
-			            				<p>Proin interdum tellus sed enim viverra ut commodo lectus tincidunt. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam ac lacus nunc, sed consequat eros. Nunc interdum molestie felis quis hendrerit. Maecenas lacus leo, tempus sed eleifend ut, tempus id enim. Cras bibendum ante vel arcu tempus iaculis. Nulla facilisi. Suspendisse nisl neque, adipiscing et faucibus nec, aliquam ac erat. Morbi erat velit, posuere eu bibendum nec, gravida quis nunc. Nullam condimentum, mauris at commodo pharetra, nisl ipsum rutrum massa, vel vehicula sem sapien ut lorem.</p>
-			            			</div>
-			            			<div class="tab-pane" id="2">
-			            				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a tellus orci. Suspendisse at cursus diam. Vivamus eu venenatis urna. Nam cursus lacinia enim non mattis. Aliquam fermentum nisi at turpis consequat sit amet semper ante consectetur. Donec nulla sem, ultricies quis malesuada quis, feugiat a dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc vulputate, massa ut eleifend consectetur, risus nunc eleifend orci, vel convallis mauris velit eget purus.</p>
-			            			</div>
-			            		</div>
-			            	</div>
-			            	
-			            	<p>Additionally, review of third-party educational programs for USGBC endorsement through the Education Provider network is done exclusively by employees of member organizations, who earn free LEED Professional Credential maintenance credit for their volunteer participation. <br /><a href="#" class="more-link small-link">More</a></p>
-			            	
-			            	<h3>Networking</h3>
-			            	<p>The most important work done in support of USGBC’s mission is the result of the partnerships formed among our members. Through exclusive online and in-person networking opportunities, you’ll meet other members who can help you grow your business.</p>
-			            
-			            </article>
-			            
-			            <aside id="sideCol" class="span3">
-			            	<section>
-			            		<a href="#" class="btn btn-large btn-dark">Become a Member</a>
-			            	</section>
-			            	
-			            	<section>
-			            		<h3>Already a member?</h3>
-			            		<ul class="nav">
-			            			<li><a href="#">Join your membership account</a></li>
-			            		</ul>
-			            	</section>
-			            	
-			            	<section class="box">
-			            		<h3>Questions</h3>
-			            		<ul class="nav">
-			            			<li><a href="#">How do I participate in LEED balloting?</a></li>
-			            			<li><a href="#">How do I join a committee?</a></li>
-			            		</ul>
-			            		
-			            		<a class="btn" href="#">Ask a question <i class="icon-arrow-right"></i></a>
-			            	</section>
-			            </aside>
+			            	<!-- Josh adds here -->
+			            			            	
+			            </article>			            
 					</div>
 				</div>
 			</div>
