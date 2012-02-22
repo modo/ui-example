@@ -41,7 +41,9 @@ function cleanup_code($code) {
 			            	<section><?php include('lib/docs/images.php') ?></section>
 			            	
 			            	<!-- Josh adds here -->
-			            			            	
+			            	<section><?php include('lib/docs/alerts.php') ?></section>
+			            	<section><?php include('lib/docs/progress-bars.php') ?></section>
+			            	<section><?php include('lib/docs/basic-aggregation.php') ?></section>
 			            </article>			            
 					</div>
 				</div>
