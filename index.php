@@ -30,8 +30,8 @@ function cleanup_code($code) {
 			            <article id="mainCol" class="span10">
 			            	
 			            	<!-- Travis adds here -->
-			            	<section><?php include('lib/docs/rating-widgets.php') ?></section>
 			            	<section><?php include('lib/docs/typography.php') ?></section>
+			            	<section><?php include('lib/docs/rating-widgets.php') ?></section>
 			            	<section><?php include('lib/docs/columns.php') ?></section>
 			            	<section><?php include('lib/docs/tables.php') ?></section>
 			            	<section><?php include('lib/docs/lists.php') ?></section>
