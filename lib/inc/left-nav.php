@@ -1,4 +1,5 @@
 <div class="span2">
+	<!--
 	<nav id="sub-section-nav">
 		<ul class="nav nav-list">
 			<li><a href="" class="">Home</a></li>
@@ -28,6 +29,22 @@
 					<li><a href="">Credits</a></li>
 				</ul>
 			</li>
+		</ul>
+	</nav>
+	
+	<nav id="sub-section-nav">
+		<ul class="nav nav-list filterNav">
+			<li class=""><a href="" class="">Home</a></li>
+			<li><a href="">Personal</a></li>
+			<li class="active"><a href="">Organization</a></li>
+			<li><a href="">Chapter</a></li>
+		</ul>
+	</nav>
+	-->
+	
+	<nav id="sub-section-nav">
+		<ul class="nav nav-list filterNav">
+			<li class="active"><a href="">All</a></li>
 		</ul>
 	</nav>
 </div>

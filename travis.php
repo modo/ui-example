@@ -37,6 +37,7 @@ function cleanup_code($code) {
 			            	<section><?php include('lib/inc/demos/boxes.php') ?></section>
 			            	<section><?php include('lib/inc/demos/buttons.php') ?></section>
 			            	<section><?php include('lib/inc/demos/columns.php') ?></section>
+			            	<section><?php include('lib/inc/demos/images.php') ?></section>
 			            			            	
 			            </article>			            
 					</div>
