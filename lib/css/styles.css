@@ -1453,7 +1453,7 @@ table .span12 {
   width: 14px;
   height: 14px;
   vertical-align: text-top;
-  background-image: url('../base/img/glyphicons-halflings.png');
+  background-image: url('../bootstrap/base/img/glyphicons-halflings.png');
   background-position: 14px 14px;
   background-repeat: no-repeat;
   *margin-right: .3em;
@@ -1468,10 +1468,10 @@ table .span12 {
   opacity: 1;
 }
 .icon-white {
-  background-image: url('../base/img/glyphicons-halflings-white.png');
+  background-image: url('../bootstrap/base/img/glyphicons-halflings-white.png');
 }
 .icon-social {
-  background-image: url('../base/img/social-icons.png');
+  background-image: url('../bootstrap/base/img/social-icons.png');
   width: 16px;
   height: 16px;
 }
@@ -6441,6 +6441,16 @@ nav.social li:first-child {
   text-align: right;
   font-size: 11px;
   color: #b6b7b8;
+}
+.account-setting {
+  margin: 15px 0;
+}
+.account-setting .alert {
+  margin-top: 7.5px;
+  margin-bottom: 30px;
+}
+.account-setting + .account-setting {
+  margin-top: 30px;
 }
 article section {
   margin-bottom: 100px;
