@@ -78,4 +78,6 @@
 	<dd>Used to replicate the styling of header tags on other tags. Include them in any other header styling for complete support.</dd>
 	<dt><code>.section-header</code></dt>
 	<dd>Adds an underline and extra padding below a header tag, used for creating a dramatic content separation. Can also be put on a div, with a header tag nested in it with floats left or right</dd>
+	<dt><code>.muted</code></dt>
+	<dd>Colors the containing HTML in a gray color. </dd>
 </dl>
