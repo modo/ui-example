@@ -6620,5 +6620,15 @@ nav.social li:first-child {
   margin-top: 30px;
 }
 article section {
+  *zoom: 1;
   margin-bottom: 100px;
+  clear: both;
+}
+article section:before,
+article section:after {
+  display: table;
+  content: "";
+}
+article section:after {
+  clear: both;
 }

@@ -1,4 +1,30 @@
 <h1 class="section-header">Typography</h1>
+
+<div class="row">
+	<div class="span5">
+		<h1>Header 1</h1>
+		<h2>Header 2</h2>
+		<h3>Header 3</h3> 
+		<h4>Header 4</h4>
+		<h5>Header 5</h5> 
+		<h6>Header 6</h6>
+	</div>
+	<div class="span5">
+		<h3>Header tags</h3>
+		<p>Header tags are all styled with the primary color in an array of sizes. Header tags have top-margin as well as lower margin, and the top margin is removed if the header is a <code>:first-child</code></p>
+	
+		<pre class="prettyprint linenums">
+<? cleanup_code('<h1>Header 1</h1>
+<h2>Header 2</h2>
+<h3>Header 3</h3> 
+<h4>Header 4</h4>
+<h5>Header 5</h5> 
+<h6>Header 6</h6>') ?>
+		</pre>
+	</div>
+</div>
+
+<hr class="white-space" />
 			            	
 <hgroup>
 	<p class="header-1">This h1 is green only because it is wrapped in a header group</p>
