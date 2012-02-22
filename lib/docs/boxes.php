@@ -1,17 +1,43 @@
 <h1 class="section-header">Boxes</h1>
-<div class="box">
-	<div class="box-header">
-		<h3 class="pull-left">Box</h3>
-		<code class="pull-right">.box</code>
+
+
+<div class="row">
+	<div class="span10">
+		<h2 class="header-2">Box</h2>
 	</div>
-	<p class="small-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pellentesque, diam et congue consequat, tortor ligula lobortis enim, eget mollis purus augue sit amet lectus. Sed molestie urna eu eros iaculis dignissim. Curabitur posuere, lectus nec cursus pellentesque, justo quam laoreet justo, quis commodo metus sapien eget est. Quisque ultricies eros vitae ante elementum tempor. Nulla facilisi. Suspendisse et massa quis.</p>
-	<div class="btn-row">
-		<a class="btn btn-primary" href="">Log in</a>
-		<a class="btn btn-success" href="">Sign up</a>
-		<a class="btn btn-info" href="">Cancel</a>
+    <div class="span4">
+<pre class="prettyprint linenums">
+<? cleanup_code('<table class="table-bordered">
+	…
+</table>') ?>
+</pre>
+    </div>
+	<div class="span6">
+		<div class="box">
+			<div class="box-header">
+				<h3 class="pull-left">Box</h3>
+				<code class="pull-right">.box</code>
+			</div>
+			<p class="small-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pellentesque, diam et congue consequat, tortor ligula lobortis enim, eget mollis purus augue sit amet lectus. Sed molestie urna eu eros iaculis dignissim. Curabitur posuere, lectus nec cursus pellentesque, justo quam laoreet justo, quis commodo metus sapien eget est. Quisque ultricies eros vitae ante elementum tempor. Nulla facilisi. Suspendisse et massa quis.</p>
+			
+			<hr class="box-divider" />
+			
+			<div class="btn-row">
+				<a class="btn btn-primary" href="">Log in</a>
+				<a class="btn btn-success" href="">Sign up</a>
+				<a class="btn btn-info" href="">Cancel</a>
+			</div>
+			
+		</div>
 	</div>
-	
 </div>
+
+
+
+
+
+
+
 <div class="box box-action">
 	<div class="box-header">
 		<h3 class="pull-left">Action box</h3>
