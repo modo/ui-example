@@ -66,7 +66,7 @@
 <hr class="thick-rule" />
 
 
-<h3>Typography utilities</h3>
+<h3>Typography modifiers &amp; utilities</h3>
 <p>There are a number of classes available for tweaking typography.</p>
 
 <dl class="lined-list">
@@ -74,8 +74,6 @@
 	<dd> Decreases font size of an element to 85% of the baseFontSize variable</dd>
 	<dt><code>.smaller-text</code></dt>
 	<dd>Decreases font size of an element to 78.5% of the baseFontSize variable</dd>
-	<dt><code>.header-1, .header2 ... .header-6</code></dt>
-	<dd>Used to replicate the styling of header tags on other tags. Include them in any other header styling for complete support.</dd>
 	<dt><code>.section-header</code></dt>
 	<dd>Adds an underline and extra padding below a header tag, used for creating a dramatic content separation. Can also be put on a div, with a header tag nested in it with floats left or right</dd>
 	<dt><code>.muted</code></dt>
