@@ -41,7 +41,7 @@
 
 <div class="row">
 	<div class="span10">
-		<hgroup>
+		<hgroup class="intro">
 			<h1>Donec fringilla est vitae urna vulputate laoreet</h1>
 			<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla est vitae urna vulputate laoreet</h2>
 		</hgroup>
@@ -49,7 +49,7 @@
 	
 	<div class="span10">
 		<div class="box">
-			<p>Specific header tweaks are done as passively as possible. This example styles the header tags like an intro header &amp; kicker based on the fact that they're in an <code>&lt;hgroup&gt;</code>
+			<p>Specific header tweaks are done as passively as possible. This example styles the header tags like an intro header &amp; kicker based on the fact that they're wrapped with <code>&lt;hgroup class="intro"&gt;</code>
 			
 <pre class="prettyprint linenums">
 <? cleanup_code('<hgroup>
