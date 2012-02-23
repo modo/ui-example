@@ -8,7 +8,7 @@
 <pre class="prettyprint linenums">
 <? cleanup_code('<div class="frame-container">
 	<div class="frame">
-		<img src="image.png" alt="image" />
+		<img src="…" alt="image" />
 	</div>
 </div>') ?>
 </pre>
@@ -81,3 +81,115 @@
 		</div>
 	</div>
 </div>
+
+<hr class="white-space" />
+
+<div class="row">
+
+	<div class="span10">
+		<h4>App images</h4>
+	</div>
+	<div class="span6">
+		<p>Add the class <code>.app</code> to the image to give it an app-like drop-shadow & rounded corners. Also include the class <code>.sheen</code> to give it a glossy gradient-overlay.</p>
+<pre class="prettyprint linenums">
+<? cleanup_code('<div class="frame-container">
+	<a class="frame app sheen" href="">
+		<img src="…" alt="…" />
+	</a>
+</div>') ?>
+</pre>
+		
+		
+	</div>
+	<div class="span4">
+		<div class="row">
+			<div class="span1">
+				<div class="frame-container">
+					<a class="frame app sheen" href="">
+						<img src="http://cl.ly/110g133C2Z0P0U2h0D38/content" alt="" />
+					</a>
+				</div>
+			</div>
+			<div class="span1">
+				<div class="frame-container">
+					<a class="frame app sheen" href="">
+						<img src="http://cl.ly/110g133C2Z0P0U2h0D38/content" alt="" />
+					</a>
+				</div>
+			</div>
+			<div class="span1">
+				<div class="frame-container">
+					<a class="frame app sheen" href="">
+						<img src="http://cl.ly/110g133C2Z0P0U2h0D38/content" alt="" />
+					</a>
+				</div>
+			</div>
+			<div class="span1">
+				<div class="frame-container">
+					<a class="frame app sheen" href="">
+						<img src="http://cl.ly/110g133C2Z0P0U2h0D38/content" alt="" />
+					</a>
+				</div>
+			</div>
+			<div class="span1">
+				<div class="frame-container">
+					<a class="frame app" href="">
+						<img src="http://cl.ly/110g133C2Z0P0U2h0D38/content" alt="" />
+					</a>
+				</div>
+			</div>
+			<div class="span1">
+				<div class="frame-container">
+					<a class="frame app" href="">
+						<img src="http://cl.ly/110g133C2Z0P0U2h0D38/content" alt="" />
+					</a>
+				</div>
+			</div>
+			<div class="span1">
+				<div class="frame-container">
+					<a class="frame app" href="">
+						<img src="http://cl.ly/110g133C2Z0P0U2h0D38/content" alt="" />
+					</a>
+				</div>
+			</div>
+			<div class="span1">
+				<div class="frame-container">
+					<a class="frame app" href="">
+						<img src="http://cl.ly/110g133C2Z0P0U2h0D38/content" alt="" />
+					</a>
+				</div>
+			</div>
+			<div class="span1">
+				<div class="frame-container">
+					<a class="frame app" href="">
+						<img src="http://cl.ly/110g133C2Z0P0U2h0D38/content" alt="" />
+					</a>
+				</div>
+			</div>
+			<div class="span1">
+				<div class="frame-container">
+					<a class="frame app" href="">
+						<img src="http://cl.ly/110g133C2Z0P0U2h0D38/content" alt="" />
+					</a>
+				</div>
+			</div>
+			
+			<div class="span1">
+				<div class="frame-container">
+					<a class="frame app" href="">
+						<img src="http://cl.ly/110g133C2Z0P0U2h0D38/content" alt="" />
+					</a>
+				</div>
+			</div>
+			<div class="span1">
+				<div class="frame-container">
+					<a class="frame app" href="">
+						<img src="http://cl.ly/110g133C2Z0P0U2h0D38/content" alt="" />
+					</a>
+				</div>
+			</div>
+		</div><!-- row -->
+	
+	</div>
+</div><!-- row -->
+
