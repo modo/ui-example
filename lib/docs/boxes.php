@@ -32,12 +32,14 @@
 	<div class="span5">
 		<div class="box">
 			<div class="box-header">
-				<h3>Box title</h3>
+				<h4>Box title</h4>
 			</div>
 			<div class="box-section">
-				<p>Etiam sagittis elementum libero quis fermentum. Curabitur aliquet pretium placerat. Ut dictum adipiscing elit. Phasellus pellentesque, diam et congue consequat, tortor ligula </p>
+				<h5 class="header-6">This box has two sections.</h5>
+				<p>Etiam sagittis elementum libero quis fermentum. Curabitur aliquet pretium placerat.</p>
 			</div>
 			<div class="box-section">
+				<h5 class="header-6">Look! I'm another section!</h5>
 				<p>Quisque ultricies eros vitae ante elementum tempor. Nulla facilisi. Suspendisse et massa quis.</p>
 			</div>
 			
