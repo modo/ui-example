@@ -79,4 +79,167 @@
 
 <hr class="thick-rule">
 
-<h2>Button groups</h2>
+<h2>Grouping</h2>
+
+<hr class="white-space">
+
+<div class="row">
+	<div class="span4">
+		<h3>Button rows</h3>
+		<p>This wrapper will simply float buttons left, leaving them disconnected</p>
+	</div>
+	<div class="span5 offset1">
+		<div class="btn-row">
+			<a class="btn btn-small" href="#">A</a>
+			<a class="btn btn-small btn-warning" href="#">B</a>
+			<a class="btn btn-small btn-danger" href="#">C</a>
+			<a class="btn btn-small btn-success" href="#">D</a>
+		</div>
+	</div>
+	<div class="span10">		
+<pre class="prettyprint linenums small-text">
+<? cleanup_code('<div class="btn-row">
+	<a class="btn btn-small" href="#">A</a>
+	<a class="btn btn-small btn-warning" href="#">B</a>
+	<a class="btn btn-small btn-danger" href="#">C</a>
+	<a class="btn btn-small btn-success" href="#">D</a>
+</div>') ?>
+</pre>
+	</div>
+</div>
+
+<hr class="white-space">
+
+<div class="row">
+	<div class="span4">
+		<h3>Button groups</h3>
+		<p>This wrapper will group your icons together, connecting them side-by-side.</p>
+	</div>
+	<div class="span5 offset1">
+		<div class="btn-group">
+			<a class="btn btn-small" href="#">A</a>
+			<a class="btn btn-small btn-warning" href="#">B</a>
+			<a class="btn btn-small btn-danger" href="#">C</a>
+			<a class="btn btn-small btn-success" href="#">D</a>
+		</div>
+	</div>
+	<div class="span10">
+<pre class="prettyprint linenums small-text">
+<? cleanup_code('<div class="btn-group">
+	<a class="btn btn-small" href="#">A</a>
+	<a class="btn btn-small btn-warning" href="#">B</a>
+	<a class="btn btn-small btn-danger" href="#">C</a>
+	<a class="btn btn-small btn-success" href="#">D</a>
+</div>') ?>
+</pre>
+	</div>
+</div>
+
+<hr class="white-space">
+
+<div class="row">
+	<div class="span4">
+		<h3>Button toolbars</h3>
+		<p>This additional wrapper will allow you to include multiple button groups in one row.</p>
+	</div>
+	<div class="span5 offset1">
+		<div class="btn-toolbar">
+			<div class="btn-group">
+				<a class="btn btn-small" href="#">A</a>
+				<a class="btn btn-small btn-warning" href="#">B</a>
+				<a class="btn btn-small btn-danger" href="#">C</a>
+				<a class="btn btn-small btn-success" href="#">D</a>
+			</div>
+			<div class="btn-group">
+				<a class="btn btn-small btn-primary" href="#">Okay</a>
+				<a class="btn btn-small btn-dark" href="#">Cancel</a>
+			</div>
+			<div class="btn-group">
+				<a class="btn btn-small btn-success" href="#"><i class="icon-ok icon-white"></i></a>
+				<a class="btn btn-small btn-danger" href="#"><i class="icon-remove icon-white"></i></a>
+			</div>
+		</div>
+	</div>
+	<div class="span10">	
+<pre class="prettyprint linenums small-text">
+<? cleanup_code('<div class="btn-toolbar">
+	<div class="btn-group">
+		<a class="btn btn-small" href="#">A</a>
+		<a class="btn btn-small btn-warning" href="#">B</a>
+		<a class="btn btn-small btn-danger" href="#">C</a>
+		<a class="btn btn-small btn-success" href="#">D</a>
+	</div>
+	<div class="btn-group">
+		<a class="btn btn-small btn-primary" href="#">Okay</a>
+		<a class="btn btn-small btn-dark" href="#">Cancel</a>
+	</div>
+	<div class="btn-group">
+		<a class="btn btn-small btn-success" href="#"><i class="icon-ok icon-white"></i></a>
+		<a class="btn btn-small btn-danger" href="#"><i class="icon-remove icon-white"></i></a>
+	</div>
+</div>') ?>
+</pre>
+	</div>
+</div>
+
+<hr class="thick-rule">
+
+<h2>Dropdown menus</h2>
+<div class="row">
+	<div class="span5">
+		<h3>Traditional button dropdowns</h3>
+		<p>Use any button to trigger a dropdown menu by placing it within a <code>.btn&#8209;group</code> and providing the proper menu markup.</p>
+		<div class="btn-group">
+			<a class="btn dropdown-toggle" data-toggle="dropdown" href="#">Action <span class="caret"></span></a>
+			<ul class="dropdown-menu">
+				<li><a href="#">Action</a></li>
+				<li><a href="#">Another action</a></li>
+				<li><a href="#">Something else here</a></li>
+				<li class="divider"></li>
+				<li><a href="#">Separated link</a></li>
+			</ul>
+		</div>
+<pre class="prettyprint linenums small-text">
+<? cleanup_code('<div class="btn-group">
+	<a class="btn dropdown-toggle" data-toggle="dropdown" href="#">Action <span class="caret"></span></a>
+	<ul class="dropdown-menu">
+		<li><a href="#">Action</a></li>
+		<li><a href="#">Another action</a></li>
+		<li><a href="#">Something else here</a></li>
+		<li class="divider"></li>
+		<li><a href="#">Separated link</a></li>
+	</ul>
+</div>') ?>
+</pre>
+	</div>
+	
+	<div class="span5">
+		<h3>Split-button dropdowns</h3>
+		<p>Building on the button group styles and markup, we can easily create a split button. Split buttons feature a standard action on the left and a dropdown toggle on the right with contextual links.</p>
+		<div class="btn-group">
+			<a class="btn" href="#">Action</a>
+			<a class="btn dropdown-toggle" data-toggle="dropdown" href="#"><span class="caret"></span></a>
+			<ul class="dropdown-menu">
+				<li><a href="#">Action</a></li>
+				<li><a href="#">Another action</a></li>
+				<li><a href="#">Something else here</a></li>
+				<li class="divider"></li>
+				<li><a href="#">Separated link</a></li>
+			</ul>
+		</div>
+		
+<pre class="prettyprint linenums small-text">
+<? cleanup_code('<div class="btn-group">
+	<a class="btn" href="#">Action</a>
+	<a class="btn dropdown-toggle" data-toggle="dropdown" href="#"><span class="caret"></span></a>
+	<ul class="dropdown-menu">
+		<li><a href="#">Action</a></li>
+		<li><a href="#">Another action</a></li>
+		<li><a href="#">Something else here</a></li>
+		<li class="divider"></li>
+		<li><a href="#">Separated link</a></li>
+	</ul>
+</div>') ?>
+</pre>
+	</div>
+</div>
