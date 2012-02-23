@@ -42,6 +42,7 @@ function cleanup_code($code) {
 			            	
 			            	<!-- Josh adds here -->
 			            	<section><?php include('lib/docs/alerts.php') ?></section>
+			            	<section><?php include('lib/docs/search.php') ?></section>
 			            	<section><?php include('lib/docs/progress-bars.php') ?></section>
 			            	<section><?php include('lib/docs/basic-aggregation.php') ?></section>
 			            </article>			            
