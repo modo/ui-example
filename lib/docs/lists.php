@@ -6,7 +6,7 @@
 
 <div class="row">
 	<div class="span3">
-		<h2 class="header-3">Unordered lists</h2>
+		<h2>Unordered lists</h2>
 		<p>
 <pre class="prettyprint linenums">
 <? cleanup_code('<ul>
@@ -30,7 +30,7 @@
 	</div>
 	
 	<div class="span3">
-		<h2 class="header-3">Ordered lists</h2>
+		<h2>Ordered lists</h2>
 		<p>
 <pre class="prettyprint linenums">
 <? cleanup_code('<ol>
@@ -52,7 +52,7 @@
 		</ol>
 	</div>
 	<div class="span4">
-			<h2 class="header-3">Unstyled lists</h2>
+			<h2>Unstyled lists</h2>
 			<p>
 	<pre class="prettyprint linenums">
 <? cleanup_code('<ul class="unstyled-list">
@@ -80,7 +80,7 @@
 <div class="row">
 	
 	<div class="span3">
-		<h4>Lined-lists</h4>
+		<h2>Lined-lists</h2>
 		<p>
 <pre class="prettyprint linenums small-text">
 <? cleanup_code('<ul class="lined-list">
@@ -101,7 +101,7 @@
 		
 	</div>
 	<div class="span3">
-		<h4>Definition lists</h4>
+		<h2>Definition lists</h2>
 		<p>
 <pre class="prettyprint linenums small-text">
 <? cleanup_code('<dl>
@@ -122,7 +122,7 @@
 
 
 <div class="span4">
-		<h4>Styled lists</h4>
+		<h2>Styled lists</h2>
 		<p>
 <pre class="prettyprint linenums small-text">
 <? cleanup_code('<ul class="styled-list">

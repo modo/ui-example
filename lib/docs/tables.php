@@ -1,6 +1,36 @@
 <h1 class="section-header">Tables</h1>			            	
+	<h2>Basic table markup</h2>
+<pre class="prettyprint linenums">
+<? cleanup_code('<table>
+	<thead>
+		<tr>
+			<th>…</th>
+			<th>…</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th>…</th>
+			<th>…</th>
+		</tr>
+		<tr>
+			<th>…</th>
+			<th>…</th>
+		</tr>
+		<tr>
+			<th>…</th>
+			<th>…</th>
+		</tr>
+	</tbody>
+</table>') ?>
+</pre>
+
+<hr class="thick-rule" />
 
 <div class="row">
+	<div class="span10">
+		<h2>Table options</h2>
+	</div>
     <div class="span4">
 		<h4>Minimal table</h4>
 <pre class="prettyprint linenums">

@@ -11,10 +11,6 @@
 		</ul>
 		<h2>Basic box markup</h2>
 	</div>
-	<div class="span10">
-		
-	</div>
-	
 	
     <div class="span5">
 
