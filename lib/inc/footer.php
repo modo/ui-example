@@ -29,8 +29,8 @@
 			<div class="span6">
 				<nav class="social">
 					<ul class="nav nav-list-horizontal">
-						<li><a href="#"><i class="icon-social icon-facebook"></i></a></li>
-						<li><a href="#"><i class="icon-social icon-twitter"></i></a></li>
+						<li><a href="#"><i class="icon-social-facebook"></i></a></li>
+						<li><a href="#"><i class="icon-social-twitter"></i></a></li>
 					</ul>
 				</nav>
 			</div>
