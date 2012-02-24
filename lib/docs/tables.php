@@ -32,7 +32,7 @@
 		<h2>Table options</h2>
 	</div>
     <div class="span4">
-		<h4>Minimal table</h4>
+		<h3 class="header-4">Minimal table</h3>
 <pre class="prettyprint linenums">
 <? cleanup_code('<table>
 	…
@@ -77,7 +77,7 @@
 
 <div class="row">
     <div class="span4">
-		<h4>Minimal table with borders</h4>
+		<h3 class="header-4">Minimal table with borders</h3>
 <pre class="prettyprint linenums">
 <? cleanup_code('<table class="table-bordered">
 	…
@@ -124,7 +124,7 @@
 
 <div class="row">
     <div class="span4">
-		<h4>Stylized table</h4>
+		<h3 class="header-4">Stylized table</h3>
 <pre class="prettyprint linenums">
 <? cleanup_code('<table class="table-stylized">
 	…
@@ -170,7 +170,7 @@
 
 <div class="row">
     <div class="span4">
-		<h4>Zebra-striped table</h4>
+		<h3 class="header-4">Zebra-striped table</h3>
 <pre class="prettyprint linenums">
 <? cleanup_code('<table class="table-stylized">
 	…

@@ -29,7 +29,7 @@
 	<div class="span7">
 		<div class="alert">
 			<a class="close" data-dismiss="alert">×</a>
-			<h4 class="alert-heading">Larger alert</h4>
+			<h3 class="alert-heading header-4">Larger alert</h3>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 			<ul>
 				<li>consectetur adipiscing elit</li>
@@ -63,7 +63,7 @@
 		<h3>Error or danger</h3>
 <pre class="prettyprint">
 <? cleanup_code('<div class="alert alert-danger">
-	...
+	…
 </div>') ?>
 </pre>
 		<div class="alert alert-danger">
@@ -77,7 +77,7 @@
 		<h3>Success</h3>
 <pre class="prettyprint">
 <? cleanup_code('<div class="alert alert-success">
-	...
+	…
 </div>') ?>
 </pre>
 		<div class="alert alert-success">
@@ -90,7 +90,7 @@
 		<h3>Information</h3>
 <pre class="prettyprint">
 <? cleanup_code('<div class="alert alert-info">
-	...
+	…
 </div>') ?>
 </pre>
 		<div class="alert alert-info">
