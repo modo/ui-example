@@ -47,6 +47,15 @@ function cleanup_code($code) {
 				            		<ol class="ag-list ag-list-view">
 				            	        <li class="ag-item">	
 			            		        	<header class="section-header">
+			            		        		<div class="rating-widget display-rating-widget pull-left">
+			            		        			<div class="rating-total">
+			            		        				<span class="current-rating positive">+42</span>
+			            		        			</div>
+			            		        			<div class="rating-comparison">
+			            		        				<span class="likes positive">44</span><span class="dislikes negative">2</span>
+			            		        			</div>
+			            		        			<span class="rating-disclaimer">Sign in to vote!</span>
+			            		        		</div>
 			            		        		<h2><a href="#" class="dark-text">USGBC commends National League of Cities call for federal adoption of Green Building Policy Agenda</a></h2>
 			            		        	</header>
 			            		        	
