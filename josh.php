@@ -42,6 +42,112 @@ function cleanup_code($code) {
 			            	    <a href="#" class="pull-left"><i class="icon-social-rss"></i></a>
 			            	</header>
 			            	
+			            	<div class="row">
+			            		<div class="blog-ag span9">
+				            		<ol class="ag-list ag-list-view">
+				            	        <li class="ag-item">	
+			            		        	<header class="section-header">
+			            		        		<h2><a href="#" class="dark-text">USGBC commends National League of Cities call for federal adoption of Green Building Policy Agenda</a></h2>
+			            		        	</header>
+			            		        	
+			            		        	<div class="meta">
+			            		        		<p class="pull-left">Published on <time datetime="2011-01-12">January 12, 2011</time></p>
+			            		        		<p class="pull-left">Written by <a href="#">John Doe</a></p>
+			            		        		<p class="pull-left">Posted in <a href="#">USGBC</a></p>
+			            		        	</div>
+			            		        	
+			            		        	<div class="entry">
+			            		        		<div class="frame-container">
+			            		        			<div class="frame">
+			            		        				<img src="http://usgbc.trav.mododev.com/prototype/themes/usgbc/lib/img/blog/feature_image.jpg" alt="" />
+			            		        			</div>
+			            		        		</div>
+			            		        		<div class="summary">
+			            		        			<p>As delegates work to advance a new global climate change pact at the U.N. Framework Convention on Climate Change conference, 40 environmental and business organizations joined forces to urge governments to prioritize reducing greenhouse gas emissions from the built environment and increase investment in this sector. As partners in a new broad-based international action network called the Global Leadership in Our Built Environment (GLOBE) Alliance, the organizations are...</p>
+			            		        		</div>
+			            		        	</div>
+			            		        	
+			            		        	<footer class="box box-action">
+			            		        		<div class="counter counter-comment pull-left">
+			            		        			<i class="icon-comment"></i>
+			            		        			<span class="count">16</span>
+			            		        		</div>
+			            		        		<p class="pull-right"><a href="#">Continue reading <i class="arrow-link"></span></i></a></p>
+			            		        	</footer>
+				            	        </li>
+				            	        
+				            	        <li class="ag-item">	
+				            	        	<header class="section-header">
+				            	        		<h2><a href="#" class="dark-text">USGBC commends National League of Cities call for federal adoption of Green Building Policy Agenda</a></h2>
+				            	        	</header>
+				            	        	
+				            	        	<div class="meta">
+				            	        		<p class="pull-left">Published on <time datetime="2011-01-12">January 12, 2011</time></p>
+				            	        		<p class="pull-left">Written by <a href="#">John Doe</a></p>
+				            	        		<p class="pull-left">Posted in <a href="#">USGBC</a></p>
+				            	        	</div>
+				            	        	
+				            	        	<div class="entry">
+				            	        		<div class="frame-container">
+				            	        			<div class="frame">
+				            	        				<img src="http://usgbc.trav.mododev.com/prototype/themes/usgbc/lib/img/blog/feature_image.jpg" alt="" />
+				            	        			</div>
+				            	        		</div>
+				            	        		<div class="summary">
+				            	        			<p>As delegates work to advance a new global climate change pact at the U.N. Framework Convention on Climate Change conference, 40 environmental and business organizations joined forces to urge governments to prioritize reducing greenhouse gas emissions from the built environment and increase investment in this sector. As partners in a new broad-based international action network called the Global Leadership in Our Built Environment (GLOBE) Alliance, the organizations are...</p>
+				            	        		</div>
+				            	        	</div>
+				            	        	
+				            	        	<footer class="box box-action">
+				            	        		<div class="counter counter-comment pull-left">
+				            	        			<i class="icon-comment"></i>
+				            	        			<span class="count">16</span>
+				            	        		</div>
+				            	        		<p class="pull-right"><a href="#">Continue reading <i class="arrow-link"></span></i></a></p>
+				            	        	</footer>
+				            	        </li>
+				            	        
+				            	        <li class="ag-item">	
+				            	        	<header class="section-header">
+				            	        		<h2><a href="#" class="dark-text">USGBC commends National League of Cities call for federal adoption of Green Building Policy Agenda</a></h2>
+				            	        	</header>
+				            	        	
+				            	        	<div class="meta">
+				            	        		<p class="pull-left">Published on <time datetime="2011-01-12">January 12, 2011</time></p>
+				            	        		<p class="pull-left">Written by <a href="#">John Doe</a></p>
+				            	        		<p class="pull-left">Posted in <a href="#">USGBC</a></p>
+				            	        	</div>
+				            	        	
+				            	        	<div class="entry">
+				            	        		<div class="frame-container">
+				            	        			<div class="frame">
+				            	        				<img src="http://usgbc.trav.mododev.com/prototype/themes/usgbc/lib/img/blog/feature_image.jpg" alt="" />
+				            	        			</div>
+				            	        		</div>
+				            	        		<div class="summary">
+				            	        			<p>As delegates work to advance a new global climate change pact at the U.N. Framework Convention on Climate Change conference, 40 environmental and business organizations joined forces to urge governments to prioritize reducing greenhouse gas emissions from the built environment and increase investment in this sector. As partners in a new broad-based international action network called the Global Leadership in Our Built Environment (GLOBE) Alliance, the organizations are...</p>
+				            	        		</div>
+				            	        	</div>
+				            	        	
+				            	        	<footer class="box box-action">
+				            	        		<div class="counter counter-comment pull-left">
+				            	        			<i class="icon-comment"></i>
+				            	        			<span class="count">16</span>
+				            	        		</div>
+				            	        		<p class="pull-right"><a href="#">Continue reading <i class="arrow-link"></span></i></a></p>
+				            	        	</footer>
+				            	        </li>
+				            	    </ol>
+				            	</div>
+				            	
+				            	<div class="span3"><p>(╯°□°)╯︵ ┻━┻</p></div>
+			            	</div>
+			            	
+			            	
+			            	
+			            	
+			            	
+			            	
 			            	<div class="blog-ag">
 			            		<ol class="ag-list ag-grid-view row">
 			            	        <li class="ag-item span4 block-link">	
