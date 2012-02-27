@@ -77,5 +77,13 @@
 	<dt><code>.section-header</code></dt>
 	<dd>Adds an underline and extra padding below a header tag, used for creating a dramatic content separation. Can also be put on a div, with a header tag nested in it with floats left or right</dd>
 	<dt><code>.muted</code></dt>
-	<dd>Colors the containing HTML in a gray color. </dd>
+	<dd>Colors the containing HTML in a <span class="muted">gray</span> color.</dd>
+	<dt><code>.warning-text</code></dt>
+	<dd>Colors the containing HTML in a <span class="warning-text">orange</span> color.</dd>
+	<dt><code>.danger-text</code></dt>
+	<dd>Colors the containing HTML in a <span class="danger-text">red</span> color.</dd>
+	<dt><code>.success-text</code></dt>
+	<dd>Colors the containing HTML in a <span class="success-text">green</span> color.</dd>
+	<dt><code>.dark-text</code></dt>
+	<dd>Colors the containing HTML in a <span class="dark-text">dark gray</span> color.</dd>
 </dl>
