@@ -44,7 +44,7 @@ function cleanup_code($code) {
 			            	
 			            	<div class="blog-ag">
 			            		<ol class="ag-list ag-grid-view row">
-			            	        <li class="ag-item span4">	
+			            	        <li class="ag-item span4 block-link">	
 			            	        	<div class="box box-info">
 				            	        	<header class="section-header meta">
 				            	        		<p class="pull-left">In <a href="#">USGBC</a></p>
@@ -60,7 +60,7 @@ function cleanup_code($code) {
 				            	        		<h2><a href="#" class="dark-text">USGBC Welcomes New Board Directors</a></h2>
 				            	        		<div class="summary">
 				            	        			<p>As delegates work to advance a new global climate change pact at the U.N. Framework Convention on Climate Change conference, 40 environmental and business organizations joined forces to urge governments to prioritize reducing greenhouse gas emissions from the built environment and increase investment in this sector. As partners in a new broad-based international action network called the Global Leadership in Our Built Environment (GLOBE) Alliance, the organizations are...</p>
-				            	        			<a href="#"><i class="icon-play-circle"></i></a>
+				            	        			<a href="link1" class="btn btn-small btn-dark block-link-src"><i class="icon-play-circle icon-white"></i></a>
 				            	        		</div>
 				            	        	</div>
 				            	        	
@@ -78,7 +78,7 @@ function cleanup_code($code) {
 				            	        	</footer>
 			            	        	</div>
 			            	        </li>
-			            	        <li class="ag-item span4">	
+			            	        <li class="ag-item span4 block-link">	
 			            	        	<div class="box box-info">
 			            	            	<header class="section-header meta">
 			            	            		<p class="pull-left">In <a href="#">USGBC</a></p>
@@ -89,7 +89,7 @@ function cleanup_code($code) {
 			            	            		<h2><a href="#" class="dark-text">USGBC Welcomes New Board Directors</a></h2>
 			            	            		<div class="summary">
 			            	            			<p>As delegates work to advance a new global climate change pact at the U.N. Framework Convention on Climate Change conference, 40 environmental and business organizations joined forces to urge governments to prioritize reducing greenhouse gas emissions from the built environment and increase investment in this sector. As partners in a new broad-based international action network called the Global Leadership in Our Built Environment (GLOBE) Alliance, the organizations are...</p>
-			            	            			<a href="#"><i class="icon-play-circle"></i></a>
+			            	            			<a href="link2" class="btn btn-small btn-dark block-link-src"><i class="icon-play-circle icon-white"></i></a>
 			            	            		</div>
 			            	            	</div>
 			            	            	
@@ -107,7 +107,7 @@ function cleanup_code($code) {
 			            	            	</footer>
 			            	        	</div>
 			            	        </li>
-			            	        <li class="ag-item span4">	
+			            	        <li class="ag-item span4 block-link">	
 			            	        	<div class="box box-info">
 			            	            	<header class="section-header meta">
 			            	            		<p class="pull-left">In <a href="#">USGBC</a></p>
@@ -123,7 +123,7 @@ function cleanup_code($code) {
 			            	            		<h2><a href="#" class="dark-text">USGBC Welcomes New Board Directors</a></h2>
 			            	            		<div class="summary">
 			            	            			<p>As delegates work to advance a new global climate change pact at the U.N. Framework Convention on Climate Change conference, 40 environmental and business organizations joined forces to urge governments to prioritize reducing greenhouse gas emissions from the built environment and increase investment in this sector. As partners in a new broad-based international action network called the Global Leadership in Our Built Environment (GLOBE) Alliance, the organizations are...</p>
-			            	            			<a href="#"><i class="icon-play-circle"></i></a>
+			            	            			<a href="link3" class="btn btn-small btn-dark block-link-src"><i class="icon-play-circle icon-white"></i></a>
 			            	            		</div>
 			            	            	</div>
 			            	            	

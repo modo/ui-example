@@ -32,12 +32,10 @@ function cleanup_code($code) {
 			            	<!-- Travis adds here -->
 			            	<section><?php include('lib/docs/typography.php') ?></section>
 			            	<section><?php include('lib/docs/rating-widgets.php') ?></section>
-			            	<section><?php include('lib/docs/columns.php') ?></section>
 			            	<section><?php include('lib/docs/tables.php') ?></section>
 			            	<section><?php include('lib/docs/lists.php') ?></section>
 			            	<section><?php include('lib/docs/boxes.php') ?></section>
 			            	<section><?php include('lib/docs/buttons.php') ?></section>
-			            	<section><?php include('lib/docs/columns.php') ?></section>
 			            	<section><?php include('lib/docs/images.php') ?></section>
 			            	
 			            	<!-- Josh adds here -->
@@ -46,6 +44,7 @@ function cleanup_code($code) {
 			            	<section><?php include('lib/docs/progress-bars.php') ?></section>
 			            	<section><?php include('lib/docs/search.php') ?></section>
 			            	<section><?php include('lib/docs/basic-aggregation.php') ?></section>
+			            	<section><?php include('lib/docs/blog-aggregation.php') ?></section>
 			            </article>			            
 					</div>
 				</div>
