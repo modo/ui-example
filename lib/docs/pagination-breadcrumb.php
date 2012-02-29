@@ -72,3 +72,22 @@
 <hr class="thick-rule">
 
 <h2>Breadcrumbs</h2>
+<div class="row">
+	<div class="span5">
+		<p>Breadcrumb navigation is used as a way to show users where they are within an app or a site, but not for primary navigation. Keep their use sparse and succinct to be most effective.</p>
+		<ul class="breadcrumb">
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Library</a></li>
+			<li class="active"><a href="#">Data</a></li>
+		</ul>
+	</div>
+	<div class="span5">
+<pre class="prettyprint linenums small-text">
+<? cleanup_code('<ul class="breadcrumb">
+	<li><a href="#">Home</a></li>
+	<li><a href="#">Library</a></li>
+	<li class="active"><a href="#">Data</a></li>
+</ul>') ?>
+</pre>
+	</div>
+</div>

@@ -24,6 +24,11 @@ function cleanup_code($code) {
 			<div id="content" class="row">
 				
 				<div class="span12">
+					<ul class="breadcrumb">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Library</a></li>
+						<li class="active"><a href="#">Data</a></li>
+					</ul>
 					
 					<div class="row">
 			            <article id="mainCol" class="span12">
@@ -149,7 +154,7 @@ function cleanup_code($code) {
 				            	    </ol>
 				            	</div>
 				            	
-				            	<div class="span3"><p>(╯°□°)╯︵ ┻━┻</p></div>
+				            	<div class="span3"><p>(ノಠ益ಠ)ノ彡┻━┻</p></div>
 			            	</div>
 			            	
 			            	
