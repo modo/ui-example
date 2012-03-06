@@ -47,6 +47,7 @@ function cleanup_code($code) {
 			            	<section><?php include('lib/docs/search.php') ?></section>
 			            	<section><?php include('lib/docs/basic-aggregation.php') ?></section>
 			            	<section><?php include('lib/docs/blog-aggregation.php') ?></section>
+			            	<section><?php include('lib/docs/less.php') ?></section>
 			            </article>			            
 					</div>
 				</div>
