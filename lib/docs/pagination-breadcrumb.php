@@ -1,5 +1,6 @@
 <h1 class="section-header">Pagination and Breadcrumbs</h1>
 <h2>Pagination</h2>
+<div class="alert alert-info small-text">Disabled class <code>.disabled</code> is optional. To float the nav left or right, add class <code>.pull&#8209;left</code> or <code>.pull&#8209;right</code> to <code>.pagination</code></div>
 <div class="row">
 	<div class="span7">
 <pre class="prettyprint linenums small-text">
@@ -25,8 +26,6 @@
 				<li><a href="#"><i class="icon-step-forward"></i></a></li>
 			</ul>
 		</div>
-		
-		<p>Disabled class (<code>.disabled</code>) is optional. To float the nav left or right, add class <code>.pull&#8209;left</code> or <code>.pull&#8209;right</code> to <code>.pagination</code></p>
 	</div>
 </div>
 
