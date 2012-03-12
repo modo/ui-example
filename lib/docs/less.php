@@ -1,4 +1,4 @@
-<h1 class="section-header">LESS Vars &amp; Mixins</h1>
+<h1 class="section-header">Using LESS</h1>
 
 <hr class="white-space">
 
