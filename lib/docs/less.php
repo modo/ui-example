@@ -211,7 +211,7 @@
 	</div>
 </div>
 <div class="row">
-	<div class="span12">
+	<div class="span10">
 		<h3>Forms &amp; alerts</h3>
 		<table class="table-bordered table-striped small-text">
 			<tr>
@@ -287,7 +287,7 @@
 
 <h3>Components</h3>
 <div class="row">
-	<div class="span12">
+	<div class="span10">
 		<h3>Grid</h3>
 		<table class="table-bordered table-striped small-text">
 			<tr>
