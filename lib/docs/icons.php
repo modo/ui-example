@@ -1,25 +1,64 @@
 <h1 class="section-header">Icons</h1>
 <div class="box">
-	<p>All icons are created using the <code>&lt;i&gt;</code> tag and displayed through the css <code>:after</code> pseudo-selector, dependant on the class given.</p>
+	<p>All icons are created using the <code>&lt;i&gt;</code> tag and displayed through the css <code>:after</code> pseudo-selector, dependent on the class given.</p>
 </div>
 
 <hr class="white-space">
 
-<h2>Pictos Icons</h2>
-<p>Will need documented once ready</p>
-
-<hr class="thick-rule">
-
-<h2>Glyphicons</h2>
-<p>All icons are 14x14 and are black by default. To display a white icon, add the class <code>.icon-white</code></p>
 <div class="row">
-	<div class="span8">
-		<pre class="prettyprint linenums">
-<? cleanup_code('<i class="icon-edit"></i>				<!-- Default 14x14 black icon -->
-<i class="icon-edit icon-white"></i>	 <!-- 14x14 white icon -->') ?>
+	<div class="span4">
+		<h2 class="header-3">Basic markup</h2>
+		<p>Any property not set with a variant class will be inherited by it's parent (font-size, color, text-shadow, etc)</p>
+<pre class="prettyprint linenums">
+<? cleanup_code('<!-- Default icon -->
+<i class="icon-edit"></i>
+
+<!-- Icon with variant -->
+<i class="icon-edit icon-white"></i>') ?>
 		</pre>
 	</div>
+	
+	<div class="span3">
+		<h2 class="header-3">Size variants</h2>
+		<div class="alert alert-info smaller-text">Sizing for icons placed inside a <code>.btn</code> is handled automatically</div>
+		<dl class="lined-list">
+			<dt><code>icon-10</code></dt>
+			<dd>10px-sized icon</dd>
+			
+			<dt><code>icon-16</code></dt>
+			<dd>16px-sized icon</dd>
+			
+			<dt><code>icon-24</code></dt>
+			<dd>24px-sized icon</dd>
+			
+			<dt><code>icon-32</code></dt>
+			<dd>32px-sized icon</dd>
+		</dl>
+	</div>
+	
+	<div class="span3">
+		<h2 class="header-3">Color variants</h2>
+		<dl class="lined-list">
+			<dt><code>icon-white</code></dt>
+			<dd>White-colored icon</dd>
+			
+			<dt><code>icon-lighten</code></dt>
+			<dd>White-colored icon at 45% opacity</dd>
+			
+			<dt><code>icon-gray</code></dt>
+			<dd>Gray-colored icon</dd>
+			
+			<dt><code>icon-darken</code></dt>
+			<dd>Black-colored icon at 45% opacity</dd>
+			
+			<dt><code>icon-black</code></dt>
+			<dd>Black-colored icon</dd>
+		</dl>
+	</div>
 </div>
+
+<hr class="white-space">
+
 <div class="row">
 	<div class="span10">
 		<div class="row icon-list">
@@ -113,6 +152,26 @@
             <div class="span2"><i class="icon-folder-open"></i> icon-folder-open</div>
             <div class="span2"><i class="icon-resize-vertical"></i> icon-resize-vertical</div>
             <div class="span2"><i class="icon-resize-horizontal"></i> icon-resize-horizontal</div>
+            <div class="span2"><i class="icon-camera-retro"></i> icon-camera-retro</div>
+            <div class="span2"><i class="icon-bar-chart"></i> icon-bar-chart</div>
+            <div class="span2"><i class="icon-cogs"></i> icon-cogs</div>
+            <div class="span2"><i class="icon-external-link"></i> icon-external-link</div>
+            <div class="span2"><i class="icon-pushpin"></i> icon-pushpin</div>
+            <div class="span2"><i class="icon-facebook-sign"></i> icon-facebook-sign</div>
+            <div class="span2"><i class="icon-twitter-sign"></i> icon-twitter-sign</div>
+            <div class="span2"><i class="icon-linkedin-sign"></i> icon-linkedin-sign</div>
+            <div class="span2"><i class="icon-github-sign"></i> icon-github-sign</div>
+            <div class="span2"><i class="icon-key"></i> icon-key</div>
+            <div class="span2"><i class="icon-thumbs-up"></i> icon-thumbs-up</div>
+            <div class="span2"><i class="icon-thumbs-down"></i> icon-thumbs-down</div>
+            <div class="span2"><i class="icon-comments"></i> icon-comments</div>
+            <div class="span2"><i class="icon-trophy"></i> icon-trophy</div>
+            <div class="span2"><i class="icon-upload-alt"></i> icon-upload-alt</div>
+            <div class="span2"><i class="icon-signin"></i> icon-signin</div>
+            <div class="span2"><i class="icon-signout"></i> icon-signout</div>
+            <div class="span2"><i class="icon-star-half"></i> icon-star-half</div>
+            <div class="span2"><i class="icon-heart-empty"></i> icon-heart-empty</div>
+            <div class="span2"><i class="icon-lemon"></i> icon-lemon</div>
 		</div>
 	</div>
 </div>
