@@ -3,12 +3,15 @@
 	<div class="span6">
 		<p>The default grid system provided is a 940px-wide, 12-column grid.</p>
 		<p>It also has four responsive variations for various devices and resolutions: phone, tablet portrait, table landscape and small desktops, and large widescreen desktops.</p>
+		<p>A <code>&lt;div class="container"&gt;</code> is not required for each row. That is the outer-most wrapper that gives you a centered, 940px-wide block.</p>
 	</div>
 	<div class="span4">
 <pre class="prettyprint linenums">
-<? cleanup_code('<div class="row">
-	<div class="span4">…</div>
-	<div class="span8">…</div>
+<? cleanup_code('<div class="container">
+	<div class="row">
+		<div class="span4">…</div>
+		<div class="span8">…</div>
+	</div>
 </div>') ?>
 </pre>
 	</div>
