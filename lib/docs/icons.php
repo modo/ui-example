@@ -15,7 +15,7 @@
 
 <!-- Icon with variant -->
 <i class="icon-edit icon-white"></i>') ?>
-		</pre>
+</pre>
 	</div>
 	
 	<div class="span3">
