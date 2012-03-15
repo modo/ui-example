@@ -367,6 +367,11 @@
 		<h4>Images</h4>
 		<table class="table-bordered table-striped small-text">
 			<tr>
+				<td><code>@baseFontURL</code></td>
+				<td>Location of base fonts (required for icons)</td>
+				<td><pre>"../base/fonts"</pre></td>
+			</tr>
+			<tr>
 				<td><code>@baseImageURL</code></td>
 				<td>Location of base images</td>
 				<td><pre>"../base/img"</pre></td>
