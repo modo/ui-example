@@ -28,27 +28,23 @@ function cleanup_code($code) {
 					
 					<div class="row">
 			            <article id="mainCol" class="span10">
-			            	
-			            	<!-- Travis adds here -->
+			            	<section><?php include('lib/docs/layout.php') ?></section>
+			            	<section><?php include('lib/docs/grid.php') ?></section>
 			            	<section><?php include('lib/docs/typography.php') ?></section>
-			            	<section><?php include('lib/docs/rating-widgets.php') ?></section>
-			            	<section><?php include('lib/docs/tables.php') ?></section>
 			            	<section><?php include('lib/docs/lists.php') ?></section>
 			            	<section><?php include('lib/docs/boxes.php') ?></section>
+			            	<section><?php include('lib/docs/tables.php') ?></section>
+			            	<section><?php include('lib/docs/icons.php') ?></section>
 			            	<section><?php include('lib/docs/buttons.php') ?></section>
 			            	<section><?php include('lib/docs/images.php') ?></section>
-			            	
-			            	<!-- Josh adds here -->
-			            	<section><?php include('lib/docs/grid.php') ?></section>
-			            	<section><?php include('lib/docs/icons.php') ?></section>
 			            	<section><?php include('lib/docs/alerts.php') ?></section>
 			            	<section><?php include('lib/docs/progress-bars.php') ?></section>
 			            	<section><?php include('lib/docs/navigation-lists.php') ?></section>
 			            	<section><?php include('lib/docs/pagination-breadcrumb.php') ?></section>
-			            	<section><?php include('lib/docs/layout.php') ?></section>
-			            	<section><?php include('lib/docs/search.php') ?></section>
 			            	<section><?php include('lib/docs/basic-aggregation.php') ?></section>
 			            	<section><?php include('lib/docs/blog-aggregation.php') ?></section>
+			            	<section><?php include('lib/docs/search.php') ?></section>
+			            	<section><?php include('lib/docs/rating-widgets.php') ?></section>
 			            	<section><?php include('lib/docs/less.php') ?></section>
 			            </article>			            
 					</div>
