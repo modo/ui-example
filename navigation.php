@@ -3,7 +3,7 @@ function cleanup_code($code) {
 	echo str_replace("	","    ",htmlspecialchars($code));
 }
 
-$level2 = 'construction';
+$level2 = 'navigation';
 ?>
 <!doctype html>
 <!--[if lt IE 7]> <html class="no-js ie6 ie oldie" lang="en"> <![endif]-->
@@ -13,7 +13,7 @@ $level2 = 'construction';
 <!--[if gt IE 9]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
 	<meta charset="utf-8" />
-	<title>Construction | USGBC Bootstrap</title>
+	<title>Navigation | USGBC Bootstrap</title>
 	<meta name="description" content="" />	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
 	
@@ -31,9 +31,8 @@ $level2 = 'construction';
 					
 					<div class="row">
 			            <article id="mainCol" class="span10">
-			            	<section><?php include('lib/docs/layout.php') ?></section>
-			            	<section><?php include('lib/docs/grid.php') ?></section>
-			            	<section><?php include('lib/docs/utilities.php') ?></section>
+			            	<section><?php include('lib/docs/navigation-lists.php') ?></section>
+			            	<section><?php include('lib/docs/pagination-breadcrumb.php') ?></section>
 			            </article>			            
 					</div>
 				</div>
