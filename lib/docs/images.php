@@ -4,13 +4,13 @@
 		<h2>Basic image</h2>
 		<p>By default, images are styled with rounded corners, and stretch to fit the width of their container.</p>
 		
-		<pre class="prettyprint linenums">
-		<? cleanup_code('<div class="frame-container">
-			<div class="frame">
-				<img src="…" alt="…" />
-			</div>
-		</div>') ?>
-		</pre>
+<pre class="prettyprint linenums">
+<? cleanup_code('<div class="frame-container">
+	<div class="frame">
+		<img src="…" alt="…" />
+	</div>
+</div>') ?>
+</pre>
 	
 	</div>
 	<div class="span4">		
