@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="head">
 			<a href="/" class="logo">USGBC Home</a>
-			<a href="/" class="name">USGBC's <span>Community</span></a>
+			<a href="/" class="name">USGBC's <span>Bootstrap</span></a>
 			<a href="#" id="nav-toggle" class="btn small-screen"><i class="icon-align-justify"></i></a>
 		</div>
 		<nav>
@@ -18,11 +18,7 @@
 				</li>
 			</ul>
 			<ul id="mainNav" class="nav">
-				<li class="active"><a href="#">Community</a></li>
-				<li><a href="#">Leed</a></li>
-				<li><a href="#">Education</a></li>
-				<li><a href="#">Initiatives</a></li>
-				<li><a href="#">Advocacy</a></li>
+				<li class="active"><a href="#">Bootstrap</a></li>
 			</ul>
 			<ul id="utilityNav" class="nav">
 				<li class="active"><a href="#">Articles</a></li>
@@ -72,10 +68,12 @@
 	<nav id="section-nav" class="row">
 		<div class="span12">
 			<ul class="nav nav-list-horizontal">
-				<li class="active"><a href="#">Members</a></li>
-				<li><a href="#">Chapters</a></li>
-				<li><a href="#">Advocates</a></li>
-				<li><a href="#">LEED Professionals</a></li>
+				<li class="<?php if($level2 == 'construction') echo ' active'; ?>"><a href="index.php">Construction</a></li>
+				<li class="<?php if($level2 == 'general') echo ' active'; ?>"><a href="general-styles.php">General Styles</a></li>
+				<li class="<?php if($level2 == 'navigation') echo ' active'; ?>"><a href="navigation.php">Navigation</a></li>
+				<li class="<?php if($level2 == 'aggregation') echo ' active'; ?>"><a href="aggregation.php">Aggregation</a></li>
+				<li class="<?php if($level2 == 'components') echo ' active'; ?>"><a href="components.php">Specific Components</a></li>
+				<li class="<?php if($level2 == 'less') echo ' active'; ?>"><a href="less.php">Using LESS</a></li>
 			</ul>
 		</div>
 	</nav>
