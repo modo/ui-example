@@ -35,6 +35,7 @@ $level2 = 'components';
 			            	<section><?php include('lib/docs/alert-list.php') ?></section>
 			            	<section><?php include('lib/docs/profile-header.php') ?></section>
 			            	<section><?php include('lib/docs/commenting.php') ?></section>
+			            	<section><?php include('lib/docs/scorecard.php') ?></section>
 			            </article>			            
 					</div>
 				</div>
