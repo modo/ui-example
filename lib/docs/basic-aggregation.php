@@ -142,9 +142,9 @@
 		<p><code>.ag-grid-view</code></p>
 		<div class="aggregation">
 			<ol class="ag-list ag-grid-view">
-				<li class="ag-item">
+				<li class="ag-item block-link">
 					<div class="item-info">
-						<h2><a href="#">Result Title</a></h2>
+						<h2><a href="#" class="block-link-src">Result Title</a></h2>
 						<h3>Washington, DC</h3>
 						<p class="detail">New construction v2009</p>
 					</div>
