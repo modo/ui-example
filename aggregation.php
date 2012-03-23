@@ -3,7 +3,7 @@ function cleanup_code($code) {
 	echo str_replace("	","    ",htmlspecialchars($code));
 }
 
-$level2 = 'Aggregation';
+$level2 = 'aggregation';
 ?>
 <!doctype html>
 <!--[if lt IE 7]> <html class="no-js ie6 ie oldie" lang="en"> <![endif]-->

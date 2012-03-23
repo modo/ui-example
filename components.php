@@ -33,6 +33,8 @@ $level2 = 'components';
 			            <article id="mainCol" class="span10">
 			            	<section><?php include('lib/docs/rating-widgets.php') ?></section>
 			            	<section><?php include('lib/docs/alert-list.php') ?></section>
+			            	<section><?php include('lib/docs/profile-header.php') ?></section>
+			            	<section><?php include('lib/docs/commenting.php') ?></section>
 			            </article>			            
 					</div>
 				</div>
