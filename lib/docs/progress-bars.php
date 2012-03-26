@@ -75,7 +75,7 @@
 			<div class="progress progress-info"><div class="bar" style="width: 60%;"></div></div>
 			
 			<p><code>.progress-dark</code></p>
-			<div class="progress progress-dark"><div class="bar" style="width: 600%;"></div></div>
+			<div class="progress progress-dark"><div class="bar" style="width: 60%;"></div></div>
 		</div>
 	</div>
 </div>

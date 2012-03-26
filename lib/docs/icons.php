@@ -53,6 +53,18 @@
 			
 			<dt><code>icon-black</code></dt>
 			<dd>Black-colored icon</dd>
+			
+			<dt><code>icon-danger</code></dt>
+			<dd>Red-colored icon at 45% opacity</dd>
+			
+			<dt><code>icon-warning</code></dt>
+			<dd>Orange-colored icon</dd>
+			
+			<dt><code>icon-success</code></dt>
+			<dd>Green-colored icon at 45% opacity</dd>
+			
+			<dt><code>icon-primary</code></dt>
+			<dd>Link-colored icon</dd>
 		</dl>
 	</div>
 </div>
