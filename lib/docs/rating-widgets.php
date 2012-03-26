@@ -89,3 +89,198 @@
 	
 </div><!-- row -->
 
+
+<hr class="thick-rule">
+
+<h2>Star rating</h2>
+<div class="row">
+	<div class="span6">
+<pre class="prettyprint linenums">
+<? cleanup_code('<div class="star-rating">
+	<span class="possible">
+		<i class="icon-star icon-gray"></i>
+		<i class="icon-star icon-gray"></i>
+		<i class="icon-star icon-gray"></i>
+		<i class="icon-star icon-gray"></i>
+		<i class="icon-star icon-gray"></i>
+	</span>
+	<span class="rating">
+		<i class="icon-star icon-primary"></i>
+		<i class="icon-star icon-primary"></i>
+		<i class="icon-star icon-primary"></i>
+		<i class="icon-star-half icon-primary"></i>
+	</span>
+</div>') ?>
+</pre>
+	</div>
+	
+	<div class="span2">
+		<ul class="lined-list">
+			<li>
+				<div class="star-rating">
+					<span class="possible">
+						<i class="icon-star icon-gray"></i>
+						<i class="icon-star icon-gray"></i>
+						<i class="icon-star icon-gray"></i>
+						<i class="icon-star icon-gray"></i>
+						<i class="icon-star icon-gray"></i>
+					</span>
+					<span class="rating">
+						<i class="icon-star-half icon-primary"></i>
+					</span>
+				</div>
+			</li>
+			<li>
+				<div class="star-rating">
+					<span class="possible">
+						<i class="icon-star icon-gray"></i>
+						<i class="icon-star icon-gray"></i>
+						<i class="icon-star icon-gray"></i>
+						<i class="icon-star icon-gray"></i>
+						<i class="icon-star icon-gray"></i>
+					</span>
+					<span class="rating">
+						<i class="icon-star icon-primary"></i>
+						<i class="icon-star-half icon-primary"></i>
+					</span>
+				</div>
+			</li>
+			<li>
+				<div class="star-rating">
+					<span class="possible">
+						<i class="icon-star icon-gray"></i>
+						<i class="icon-star icon-gray"></i>
+						<i class="icon-star icon-gray"></i>
+						<i class="icon-star icon-gray"></i>
+						<i class="icon-star icon-gray"></i>
+					</span>
+					<span class="rating">
+						<i class="icon-star icon-primary"></i>
+						<i class="icon-star icon-primary"></i>
+						<i class="icon-star-half icon-primary"></i>
+					</span>
+				</div>
+			</li>
+			<li>
+				<div class="star-rating">
+					<span class="possible">
+						<i class="icon-star icon-gray"></i>
+						<i class="icon-star icon-gray"></i>
+						<i class="icon-star icon-gray"></i>
+						<i class="icon-star icon-gray"></i>
+						<i class="icon-star icon-gray"></i>
+					</span>
+					<span class="rating">
+						<i class="icon-star icon-primary"></i>
+						<i class="icon-star icon-primary"></i>
+						<i class="icon-star icon-primary"></i>
+						<i class="icon-star-half icon-primary"></i>
+					</span>
+				</div>
+			</li>
+			<li>
+				<div class="star-rating">
+					<span class="possible">
+						<i class="icon-star icon-gray"></i>
+						<i class="icon-star icon-gray"></i>
+						<i class="icon-star icon-gray"></i>
+						<i class="icon-star icon-gray"></i>
+						<i class="icon-star icon-gray"></i>
+					</span>
+					<span class="rating">
+						<i class="icon-star icon-primary"></i>
+						<i class="icon-star icon-primary"></i>
+						<i class="icon-star icon-primary"></i>
+						<i class="icon-star icon-primary"></i>
+						<i class="icon-star-half icon-primary"></i>
+					</span>
+				</div>
+			</li>
+		</ul>
+	</div>
+	
+	<div class="span2">
+		<ul class="lined-list">
+			<li>
+				<div class="star-rating">
+					<span class="possible">
+						<i class="icon-star icon-gray"></i>
+						<i class="icon-star icon-gray"></i>
+						<i class="icon-star icon-gray"></i>
+						<i class="icon-star icon-gray"></i>
+						<i class="icon-star icon-gray"></i>
+					</span>
+					<span class="rating">
+						<i class="icon-star icon-primary"></i>
+					</span>
+				</div>
+			</li>
+			<li>
+				<div class="star-rating">
+					<span class="possible">
+						<i class="icon-star icon-gray"></i>
+						<i class="icon-star icon-gray"></i>
+						<i class="icon-star icon-gray"></i>
+						<i class="icon-star icon-gray"></i>
+						<i class="icon-star icon-gray"></i>
+					</span>
+					<span class="rating">
+						<i class="icon-star icon-primary"></i>
+						<i class="icon-star icon-primary"></i>
+					</span>
+				</div>
+			</li>
+			<li>
+				<div class="star-rating">
+					<span class="possible">
+						<i class="icon-star icon-gray"></i>
+						<i class="icon-star icon-gray"></i>
+						<i class="icon-star icon-gray"></i>
+						<i class="icon-star icon-gray"></i>
+						<i class="icon-star icon-gray"></i>
+					</span>
+					<span class="rating">
+						<i class="icon-star icon-primary"></i>
+						<i class="icon-star icon-primary"></i>
+						<i class="icon-star icon-primary"></i>
+					</span>
+				</div>
+			</li>
+			<li>
+				<div class="star-rating">
+					<span class="possible">
+						<i class="icon-star icon-gray"></i>
+						<i class="icon-star icon-gray"></i>
+						<i class="icon-star icon-gray"></i>
+						<i class="icon-star icon-gray"></i>
+						<i class="icon-star icon-gray"></i>
+					</span>
+					<span class="rating">
+						<i class="icon-star icon-primary"></i>
+						<i class="icon-star icon-primary"></i>
+						<i class="icon-star icon-primary"></i>
+						<i class="icon-star icon-primary"></i>
+					</span>
+				</div>
+			</li>
+			<li>
+				<div class="star-rating">
+					<span class="possible">
+						<i class="icon-star icon-gray"></i>
+						<i class="icon-star icon-gray"></i>
+						<i class="icon-star icon-gray"></i>
+						<i class="icon-star icon-gray"></i>
+						<i class="icon-star icon-gray"></i>
+					</span>
+					<span class="rating">
+						<i class="icon-star icon-primary"></i>
+						<i class="icon-star icon-primary"></i>
+						<i class="icon-star icon-primary"></i>
+						<i class="icon-star icon-primary"></i>
+						<i class="icon-star icon-primary"></i>
+					</span>
+				</div>
+			</li>
+		</ul>
+	</div>
+</div>

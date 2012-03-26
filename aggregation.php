@@ -33,6 +33,7 @@ $level2 = 'aggregation';
 			            <article id="mainCol" class="span10">
 			            	<section><?php include('lib/docs/search.php') ?></section>
 			            	<section><?php include('lib/docs/basic-aggregation.php') ?></section>
+			            	<section><?php include('lib/docs/table-aggregation.php') ?></section>
 			            	<section><?php include('lib/docs/blog-aggregation.php') ?></section>
 			            </article>			            
 					</div>
