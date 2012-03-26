@@ -470,3 +470,44 @@
 		
 	</div>
 </div>
+
+<div class="row">
+	<div class="span7">
+<pre class="prettyprint linenums small-text">
+<? cleanup_code('<div class="interactive-scorecard span9">
+	<div class="category [category-tag]">
+		<a href="#" data-toggle="collapse" data-target="#[category-tag]-breakdown"><!-- Category name --> <span class="pull-right score"><!-- Score --></span></a>
+		<ul class="unstyled collapse in" id="[category-tag]-breakdown">
+			<li class="row">
+				<div class="span2 credit-id">
+					<a href="#" class="muted"><i class="icon-file"></i></a> 
+					<a href="#"><!-- Credit id --></a>
+				</div>
+				<div class="span6 credit-name"><!-- Credit name --></div>
+				<div class="span1 score"><!-- Score --></div>
+				<ul class="span9 small-text">
+					<li class="row">
+						<div class="span2 path-id"><!-- Path id --></div>
+						<div class="span6 path-name"><!-- Path name --></div>
+						<div class="span1 score"><!-- Score --></div>
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+</div>') ?>
+</pre>
+	</div>
+	<div class="span3">
+		<h3>Category tags</h3>
+		<ul class="lined-list">
+			<li><code>.ss</code> Sustainable Sites</li>
+			<li><code>.we</code> Water Efficiency</li>
+			<li><code>.ea</code> Energy and Atmosphere</li>
+			<li><code>.mr</code> Materials and Resources</li>
+			<li><code>.ieq</code> Indoor Environmental Quality</li>
+			<li><code>.io</code> Innovations and Design Process</li>
+			<li><code>.rp</code> Regional Priority</li>
+		</ul>
+	</div>
+</div>
