@@ -27,7 +27,7 @@
 				<li><a href="#">Store</a></li>
 				<li><a href="#">Help</a></li>
 			</ul>
-			<form method="post" action="/search/" class="search mini-search well form-inline">
+			<form method="post" action="/search/" class="search search-mini well form-inline">
 				<input type="text" class="input-medium" placeholder="Search the site" />
 				<button type="submit" class="btn btn-clear btn-small"><i class="icon-search"></i></button>
 			</form>

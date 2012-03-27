@@ -1,6 +1,4 @@
 <h1 class="section-header">Table Aggregation</h1>
-<div class="alert alert-info">Table aggregation is most commonly used for courses.</div>
-
 <div class="aggregation">
 	<header>
 		<div class="ag-control pull-left">
@@ -98,6 +96,8 @@
 		</tbody>
 	</table>
 </div>
+
+<div class="alert alert-info">Table aggregation is most commonly used for courses.</div>
 
 <pre class="prettyprint linenums">
 <? cleanup_code('<div class="<div class="aggregation">">

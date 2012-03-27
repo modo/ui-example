@@ -5,12 +5,12 @@
 <h2>Jumbo search</h2>
 <p>Used mostly at the top of aggregate pages</p>
 <pre class="prettyprint linenums">
-<? cleanup_code('<form method="post" action="/search/" class="search jumbo-search well form-inline">
+<? cleanup_code('<form method="post" action="/search/" class="search search-jumbo search-green well form-inline">
 	<input type="text" class="input-medium" placeholder="Search projects" />
 	<button type="submit" class="btn btn-clear"><i class="icon-search"></i></button>
 </form>') ?>
 </pre>	
-<form method="post" action="/search/" class="search jumbo-search well form-inline">
+<form method="post" action="/search/" class="search search-jumbo search-green well form-inline">
 	<input type="text" class="input-medium" placeholder="Search projects" />
 	<button type="submit" class="btn btn-clear"><i class="icon-search"></i></button>
 </form>
@@ -19,14 +19,14 @@
 <h2>Mini Search</h2>
 <p>Used mostly for header &amp; section searches</p>
 <pre class="prettyprint linenums">
-<? cleanup_code('<form method="post" action="/search/" class="search mini-search well form-inline">
+<? cleanup_code('<form method="post" action="/search/" class="search search-mini search-gray well form-inline">
 	<input type="text" class="input-medium" placeholder="Search projects" />
 	<button type="submit" class="btn btn-clear"><i class="icon-search"></i></button>
 </form>') ?>
 </pre>	
 <div class="row">
 	<div class="span5">
-		<form method="post" action="/search/" class="search mini-search well form-inline">
+		<form method="post" action="/search/" class="search search-mini search-gray well form-inline">
 			<input type="text" class="input-medium" placeholder="Search projects" />
 			<button type="submit" class="btn btn-clear"><i class="icon-search"></i></button>
 		</form>
