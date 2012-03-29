@@ -163,5 +163,16 @@
 	<!-- Scripts -->
 	<script src="lib/bootstrap/js/smartfilters.js"></script>
 	<?php include('lib/inc/meta-footer.php'); ?>
+	
+	<script>
+		$(document).ready(function(){
+			$('#smartfilter').smartfilter({
+				filterDefinitions: 'lib/js/sample-filters.json',
+				loadOpen: true,
+				sample: ['leed', 'location', 'rating'],
+				available: ['leed', 'location', 'rating', 'age', 'somethingelse']
+			});
+		});
+	</script>
 </body>
 </html>
