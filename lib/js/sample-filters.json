@@ -1,0 +1,90 @@
+[
+	{
+		"full":			"Leed credential",
+		"short": 		"leed",
+		"conditional": 	[
+							"is",
+							"contains",
+							"is not"
+						],
+		"value": 		{
+							"type": 	"select",
+							"options": 	[
+											"LEED Green Associate",
+											"LEED AP BD+C",
+											"LEED AP HOMES",
+											"LEED AP ID+C",
+											"LEED AP O+M"
+										]
+						}
+	},
+	
+	{
+		"full":			"Location",
+		"short":		"location",
+		"conditional":	[
+							"within 10 miles",
+							"within 25 miles",
+							"within 50 miles",
+							"within 75 miles",
+							"within 100 miles"
+						],
+		"value":		{
+							"type":		"text"
+						}
+	},
+	
+	{
+		"full":			"Conduct date",
+		"short":		"date",
+		"conditional":	null,
+		"value":		{
+							"type": 	"datepicker"
+						}
+	},
+	
+	{
+		"full":			"Format",
+		"short":		"format",
+		"conditional":	[
+							"is",
+							"is not"
+						],
+		"value":		{
+							"type":		"select",
+							"options":	[
+											"Live",
+											"On-demand"
+										]
+						}
+	},
+	
+	{
+		"full":			"Rating",
+		"short":		"rating",
+		"conditional":	[
+							"is",
+							"is at least",
+							"is at most"
+						],
+		"value":		{
+							"type":		"select",
+							"options":	[
+											"&#10029;&#10025;&#10025;&#10025;&#10025;&nbsp;&nbsp;Horrible",
+											"&#10029;&#10029;&#10025;&#10025;&#10025;&nbsp;&nbsp;Poor",
+											"&#10029;&#10029;&#10029;&#10025;&#10025;&nbsp;&nbsp;Neutral",
+											"&#10029;&#10029;&#10029;&#10029;&#10025;&nbsp;&nbsp;Good",
+											"&#10029;&#10029;&#10029;&#10029;&#10029;&nbsp;&nbsp;Excellent"
+										]
+						}
+	},
+	
+	{
+		"full":			"Keyword",
+		"short":		"keyword",
+		"conditional":	null,
+		"value":		{
+							"type":		"text"
+						}
+	}
+]

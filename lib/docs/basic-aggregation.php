@@ -113,6 +113,11 @@
 <pre class="prettyprint linenums">
 <? cleanup_code('<ol class="ag-list ag-grid-view">
 	<li class="ag-item">
+		<div class="item-photo">
+			<div class="frame-container">
+				<div class="frame outset"><img src="image.jpg" alt="" /></div>
+			</div>
+		</div>
 		<div class="item-info">
 			<h2><a href="#">Result Title</a></h2>
 			<h3>Subtitle/Location</h3>
@@ -120,11 +125,6 @@
 			<footer>
 				<p>Footer detail</p>
 			</footer>
-		</div>
-		<div class="item-photo">
-			<div class="frame-container">
-				<div class="frame outset"><img src="image.jpg" alt="" /></div>
-			</div>
 		</div>
 		<div class="item-extra">
 			<!-- Flags, Certs, etc -->
@@ -143,45 +143,45 @@
 		<div class="aggregation">
 			<ol class="ag-list ag-grid-view">
 				<li class="ag-item block-link">
-					<div class="item-info">
-						<h2><a href="#" class="block-link-src">Result Title</a></h2>
-						<h3>Washington, DC</h3>
-						<p class="detail">New construction v2009</p>
-					</div>
 					<div class="item-photo">
 						<div class="frame-container">
 							<div class="frame outset"><img src="http://usgbc.josh.mododev.com/prototype/themes/usgbc/lib/img/directory/WrigleyEngineeringTechCenter-sm.jpg" alt="" /></div>
 						</div>
+					</div>
+					<div class="item-info">
+						<h2><a href="#" class="block-link-src">Result Title</a></h2>
+						<h3>Washington, DC</h3>
+						<p class="detail">New construction v2009</p>
 					</div>
 					<div class="item-extra">
 						<div class="flag flag-gold">Gold - 08/08/11</div>
 					</div>
 				</li>
 				<li class="ag-item">
-					<div class="item-info">
-						<h2><a href="#">Result Title</a></h2>
-						<h3>Boston, MA</h3>
-						<p class="detail">Commercial interiors v2.0</p>
-					</div>
 					<div class="item-photo">
 						<div class="frame-container">
 							<div class="frame outset"><img src="http://usgbc.josh.mododev.com/prototype/themes/usgbc/lib/img/directory/one-boston-place.jpg" alt="" /></div>
 						</div>
+					</div>
+					<div class="item-info">
+						<h2><a href="#">Result Title</a></h2>
+						<h3>Boston, MA</h3>
+						<p class="detail">Commercial interiors v2.0</p>
 					</div>
 					<div class="item-extra">
 						<div class="flag flag-silver">Silver - 01/10/11</div>
 					</div>
 				</li>
 				<li class="ag-item">
-					<div class="item-info">
-						<h2><a href="#">Result Title</a></h2>
-						<h3>Savannah, GA</h3>
-						<p class="detail">New contstruction v2009</p>
-					</div>
 					<div class="item-photo">
 						<div class="frame-container">
 							<div class="frame outset"><img src="http://usgbc.josh.mododev.com/prototype/themes/usgbc/lib/img/directory/morgan-bus-center.jpg" alt="" /></div>
 						</div>
+					</div>
+					<div class="item-info">
+						<h2><a href="#">Result Title</a></h2>
+						<h3>Savannah, GA</h3>
+						<p class="detail">New contstruction v2009</p>
 					</div>
 					<div class="item-extra">
 						<div class="flag flag-certified">Certified - 08/08/11</div>
@@ -193,46 +193,46 @@
 		<p><code>.ag-list-view</code></p>
 		<div class="aggregation">
 			<ol class="ag-list ag-list-view">
-				<li class="ag-item">
-					<div class="item-info">
-						<h2><a href="#">Result Title</a></h2>
-						<h3>Washington, DC</h3>
-						<p class="detail">New construction v2009</p>
-					</div>
+				<li class="ag-item block-link">
 					<div class="item-photo">
 						<div class="frame-container">
 							<div class="frame outset"><img src="http://usgbc.josh.mododev.com/prototype/themes/usgbc/lib/img/directory/WrigleyEngineeringTechCenter-sm.jpg" alt="" /></div>
 						</div>
+					</div>
+					<div class="item-info">
+						<h2><a href="#" class="block-link-src">Result Title</a></h2>
+						<h3>Washington, DC</h3>
+						<p class="detail">New construction v2009</p>
 					</div>
 					<div class="item-extra">
 						<div class="flag flag-gold">Gold - 08/08/11</div>
 					</div>
 				</li>
 				<li class="ag-item">
-					<div class="item-info">
-						<h2><a href="#">Result Title</a></h2>
-						<h3>Boston, MA</h3>
-						<p class="detail">Commercial interiors v2.0</p>
-					</div>
 					<div class="item-photo">
 						<div class="frame-container">
 							<div class="frame outset"><img src="http://usgbc.josh.mododev.com/prototype/themes/usgbc/lib/img/directory/one-boston-place.jpg" alt="" /></div>
 						</div>
+					</div>
+					<div class="item-info">
+						<h2><a href="#">Result Title</a></h2>
+						<h3>Boston, MA</h3>
+						<p class="detail">Commercial interiors v2.0</p>
 					</div>
 					<div class="item-extra">
 						<div class="flag flag-silver">Silver - 01/10/11</div>
 					</div>
 				</li>
 				<li class="ag-item">
-					<div class="item-info">
-						<h2><a href="#">Result Title</a></h2>
-						<h3>Savannah, GA</h3>
-						<p class="detail">New contstruction v2009</p>
-					</div>
 					<div class="item-photo">
 						<div class="frame-container">
 							<div class="frame outset"><img src="http://usgbc.josh.mododev.com/prototype/themes/usgbc/lib/img/directory/morgan-bus-center.jpg" alt="" /></div>
 						</div>
+					</div>
+					<div class="item-info">
+						<h2><a href="#">Result Title</a></h2>
+						<h3>Savannah, GA</h3>
+						<p class="detail">New contstruction v2009</p>
 					</div>
 					<div class="item-extra">
 						<div class="flag flag-certified">Certified - 08/08/11</div>
