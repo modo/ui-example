@@ -38,7 +38,7 @@
 </header>
 <div class="container">
 	<nav id="section-nav" class="dropdown">
-		<a class="btn dropdown-toggle" data-toggle="dropdown" href="#">Members <span class="caret"></span></a>
+		<a class="btn dropdown-toggle" data-toggle="dropdown" href="#"><?php echo $level2; ?><span class="caret"></span></a>
 		<ul>
 			<li class="<?php if($level2 == 'construction') echo ' active'; ?>"><a href="index.php">Construction</a></li>
 			<li class="<?php if($level2 == 'general') echo ' active'; ?>"><a href="general-styles.php">General Styles</a></li>

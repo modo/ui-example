@@ -40,6 +40,7 @@ $level2 = 'general';
 			            	<section><?php include('lib/docs/images.php') ?></section>
 			            	<section><?php include('lib/docs/alerts.php') ?></section>
 			            	<section><?php include('lib/docs/progress-bars.php') ?></section>
+			            	<section><?php include('lib/docs/noise.php') ?></section>
 			            </article>			            
 					</div>
 				</div>
