@@ -47,14 +47,12 @@
 				            			<a class="smartfilter-clear pull-right" href="#">Clear filters</a>
 				            		</fieldset>
 				            		
-				            		<div id="filter-set">
-				            		
-				            		</div>
+				            		<div id="filter-set"></div>
 				            		
 				            		<fieldset class="actions">
 					            		<div class="btn-row pull-right">
-					            			<button type="save" class="btn btn-small" href="#">Save</button>
-					            			<button type="submit" class="btn btn-small btn-primary" href="#">Apply</button>
+					            			<button class="btn btn-small save" href="#">Save</button>
+					            			<button type="submit" class="btn btn-small btn-primary apply" href="#">Apply</button>
 					            		</div>
 				            		</fieldset>
 				            	</form>
@@ -169,8 +167,8 @@
 			$('#smartfilter').smartfilter({
 				filterDefinitions: 'lib/js/sample-filters.json',
 				loadOpen: true,
-				sample: ['leed', 'location', 'rating'],
-				available: ['leed', 'location', 'rating', 'age', 'somethingelse']
+				sample: ['leed', 'keyword', 'rating'],
+				available: ['leed', 'location', 'date', 'format', 'rating', 'keyword']
 			});
 		});
 	</script>

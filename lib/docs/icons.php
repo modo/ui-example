@@ -73,7 +73,7 @@
 
 <div class="row">
 	<div class="span10">
-		<div class="row icon-list">
+		<div class="row icon-display-list">
 	        <div class="span2"><i class="icon-glass"></i> icon-glass</div>
 	        <div class="span2"><i class="icon-music"></i> icon-music</div>
 	        <div class="span2"><i class="icon-search"></i> icon-search</div>
@@ -202,7 +202,7 @@
 </div>
 <div class="row">
 	<div class="span8">
-		<div class="row icon-list">
+		<div class="row icon-display-list">
 			<div class="span2"><i class="icon-social-twitter"></i>icon-social-twitter</div>
 			<div class="span2"><i class="icon-social-rss"></i>icon-social-rss</div>
 			<div class="span2"><i class="icon-social-paypal"></i>icon-social-paypal</div>
