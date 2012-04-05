@@ -2,7 +2,7 @@
 <div class="row">
 	<div class="span5">
 <pre class="prettyprint linenums">
-<? cleanup_code('<div class="box box-info alert-list">
+<?php cleanup_code('<div class="box box-info alert-list">
 	<div class="box-section">
 		<a class="close" data-dismiss="alert">×</a>
 		<!-- Alert icon (if needed) here -->
@@ -12,13 +12,13 @@
 </pre>
 		
 		<h2 class="header-5">Negative icon</h2>
-		<pre class="prettyprint linenums small-text"><? cleanup_code('<i class="icon-minus-sign icon-24 icon-danger"></i>') ?></pre>
+		<pre class="prettyprint linenums small-text"><?php cleanup_code('<i class="icon-minus-sign icon-24 icon-danger"></i>') ?></pre>
 		
 		<h2 class="header-5">Warning icon</h2>
-		<pre class="prettyprint linenums small-text"><? cleanup_code('<i class="icon-exclamation-sign icon-24 icon-warning"></i>') ?></pre>
+		<pre class="prettyprint linenums small-text"><?php cleanup_code('<i class="icon-exclamation-sign icon-24 icon-warning"></i>') ?></pre>
 		
 		<h2 class="header-5">Positive icon</h2>
-		<pre class="prettyprint linenums small-text"><? cleanup_code('<i class="icon-ok-sign icon-24 icon-success"></i>') ?></pre>
+		<pre class="prettyprint linenums small-text"><?php cleanup_code('<i class="icon-ok-sign icon-24 icon-success"></i>') ?></pre>
 	</div>
 	<div class="span5">
 		<div class="box box-info alert-list">

@@ -65,7 +65,7 @@
 </header>
 
 <pre class="prettyprint linenums">
-<? cleanup_code('<header class="profile-head">
+<?php cleanup_code('<header class="profile-head">
 	<div class="well">
 		<div class="row top">
 			<div class="span2">

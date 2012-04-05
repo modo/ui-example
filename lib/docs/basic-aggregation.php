@@ -1,7 +1,7 @@
 <h1 class="section-header">Basic Aggregation</h1>
 <p>Outer HTML for aggregation lists:</p>
 <pre class="prettyprint linenums">
-<? cleanup_code('<div class="aggregation">
+<?php cleanup_code('<div class="aggregation">
 	<header>
 		<!-- controls -->
 		<!-- pagination -->
@@ -83,7 +83,7 @@
 				<li>View</li>
 			</ul>
 <pre class="prettyprint linenums">
-<? cleanup_code('<div class="ag-control pull-left">
+<?php cleanup_code('<div class="ag-control pull-left">
 	<p class="pull-left">Control name</p>
 	<div class="btn-group pull-left">
 		<a class="btn btn-micro dropdown-toggle" data-toggle="dropdown" href="#">Option <span class="caret"></span></a>
@@ -111,7 +111,7 @@
 
 <h2>Result list</h2>
 <pre class="prettyprint linenums">
-<? cleanup_code('<ol class="ag-list ag-grid-view">
+<?php cleanup_code('<ol class="ag-list ag-grid-view">
 	<li class="ag-item">
 		<div class="item-photo">
 			<div class="frame-container">
@@ -245,7 +245,7 @@
 		<div class="box">
 			<h3>Flags</h3>
 <pre class="prettyprint linenums">
-<? cleanup_code('<div class="flag flag-gold">
+<?php cleanup_code('<div class="flag flag-gold">
 	Gold - 08/08/11
 </div>') ?>
 </pre>

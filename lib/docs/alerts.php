@@ -11,7 +11,7 @@
 		</div>
 
 <pre class="prettyprint linenums">
-<? cleanup_code('<div class="alert">
+<?php cleanup_code('<div class="alert">
 	<a class="close" data-dismiss="alert">×</a>
 	<strong>Basic alert</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 </div>') ?>
@@ -39,7 +39,7 @@
 		</div>
 
 <pre class="prettyprint linenums">
-<? cleanup_code('<div class="alert">
+<?php cleanup_code('<div class="alert">
 	<a class="close" data-dismiss="alert">×</a>
 	<h4 class="alert-heading">Larger alert</h4>
 	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -62,7 +62,7 @@
 	<div class="span3">
 		<h3>Error or danger</h3>
 <pre class="prettyprint">
-<? cleanup_code('<div class="alert alert-danger">
+<?php cleanup_code('<div class="alert alert-danger">
 	…
 </div>') ?>
 </pre>
@@ -76,7 +76,7 @@
 	<div class="span3">
 		<h3>Success</h3>
 <pre class="prettyprint">
-<? cleanup_code('<div class="alert alert-success">
+<?php cleanup_code('<div class="alert alert-success">
 	…
 </div>') ?>
 </pre>
@@ -89,7 +89,7 @@
 	<div class="span3">
 		<h3>Information</h3>
 <pre class="prettyprint">
-<? cleanup_code('<div class="alert alert-info">
+<?php cleanup_code('<div class="alert alert-info">
 	…
 </div>') ?>
 </pre>

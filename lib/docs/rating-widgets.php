@@ -96,7 +96,7 @@
 <div class="row">
 	<div class="span6">
 <pre class="prettyprint linenums">
-<? cleanup_code('<div class="star-rating">
+<?php cleanup_code('<div class="star-rating">
 	<span class="possible">
 		<i class="icon-star icon-gray"></i>
 		<i class="icon-star icon-gray"></i>

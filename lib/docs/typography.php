@@ -16,7 +16,7 @@
 			<p>Header tags are all styled with the primary color in an array of sizes. <strong>Header tags have top-margin as well as lower margin, and the top margin is removed if the header is a</strong> <code>:first-child</code></p>
 	
 			<pre class="prettyprint linenums">
-<? cleanup_code('<h1>Header 1</h1>
+<?php cleanup_code('<h1>Header 1</h1>
 <h2>Header 2</h2>
 <h3>Header 3</h3> 
 <h4>Header 4</h4>
@@ -28,7 +28,7 @@
 			<p>In the case that the desired visual type-size differs from the ideal HTML tag, use the <code>.header-1</code> - <code>.header-6</code> tags. Include them in any other header styling for complete support.</p>
 			
 <pre class="prettyprint linenums">
-<? cleanup_code('<h2 class="header-1">I look like an H1</h2>') ?>
+<?php cleanup_code('<h2 class="header-1">I look like an H1</h2>') ?>
 </pre>			
 			
 			
@@ -52,7 +52,7 @@
 			<p>Specific header tweaks are done as passively as possible. This example styles the header tags like an intro header &amp; kicker based on the fact that they're wrapped with <code>&lt;hgroup class="intro"&gt;</code>
 			
 <pre class="prettyprint linenums">
-<? cleanup_code('<hgroup>
+<?php cleanup_code('<hgroup>
 	<h1>Donec fringilla est vitae urna vulputate laoreet</p>
 	<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla est vitae urna vulputate laoreet</p>
 </hgroup>') ?>

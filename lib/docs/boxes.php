@@ -16,7 +16,7 @@
 
     
 <pre class="prettyprint linenums">
-<? cleanup_code('<div class="box">
+<?php cleanup_code('<div class="box">
 	<div class="box-header">
 		…
 	</div>
@@ -55,7 +55,7 @@
 
 	<h3>Info box</h3>    
 <pre class="prettyprint linenums">
-<? cleanup_code('<div class="box box-info">
+<?php cleanup_code('<div class="box box-info">
 	…
 </div>') ?>
 </pre>
@@ -71,7 +71,7 @@
 
 	<h3>Action box</h3>    
 <pre class="prettyprint linenums">
-<? cleanup_code('<div class="box box-action">
+<?php cleanup_code('<div class="box box-action">
 	…
 </div>') ?>
 </pre>
@@ -98,7 +98,7 @@
 	<div class="span4">
 		<div class="box">
 			<p>Section headers are used sparingly, only when it is necessary to anchor the header of a page. Color options are the same as buttons.</p>
-			<pre class="prettyprint linenums"><? cleanup_code('<div class="section-head">…</div>') ?></pre>
+			<pre class="prettyprint linenums"><?php cleanup_code('<div class="section-head">…</div>') ?></pre>
 		</div>
 	</div>
 	<div class="span6">

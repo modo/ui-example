@@ -7,7 +7,7 @@
 	</div>
 	<div class="span4">
 <pre class="prettyprint linenums">
-<? cleanup_code('<div class="container">
+<?php cleanup_code('<div class="container">
 	<div class="row">
 		<div class="span4">…</div>
 		<div class="span8">…</div>
@@ -86,7 +86,7 @@
 	</div>
 </div>
 <pre class="prettyprint linenums">
-<? cleanup_code('<div class="row">
+<?php cleanup_code('<div class="row">
 	<div class="span4">…</div>
 	<div class="span4 offset2">…</div>
 </div>') ?>
@@ -113,7 +113,7 @@
 	</div>
 	<div class="span5">
 <pre class="prettyprint linenums">
-<? cleanup_code('<div class="span10">
+<?php cleanup_code('<div class="span10">
 	Level 1 of column
 	<div class="row">
 		<div class="span5">Level 2</div>

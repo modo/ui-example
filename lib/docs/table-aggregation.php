@@ -100,7 +100,7 @@
 <div class="alert alert-info">Table aggregation is most commonly used for courses.</div>
 
 <pre class="prettyprint linenums">
-<? cleanup_code('<div class="<div class="aggregation">">
+<?php cleanup_code('<div class="<div class="aggregation">">
 	<header>
 		<!-- controls -->
 	</header>

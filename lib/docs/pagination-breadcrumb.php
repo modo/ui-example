@@ -4,7 +4,7 @@
 <div class="row">
 	<div class="span7">
 <pre class="prettyprint linenums small-text">
-<? cleanup_code('<div class="pagination">
+<?php cleanup_code('<div class="pagination">
 	<ul>
 		<li class="disabled"><a href="#"><i class="icon-step-backward"></i></a></li>
 		<li class="disabled"><a href="#"><i class="icon-chevron-left"></i></a></li>
@@ -42,7 +42,7 @@
 				<li><a href="#">Next</a></li>
 			</ul>
 <pre class="prettyprint linenums small-text">
-<? cleanup_code('<ul class="pager">
+<?php cleanup_code('<ul class="pager">
 	<li><a href="#">Previous</a></li>
 	<li><a href="#">Next</a></li>
 </ul>') ?>
@@ -59,7 +59,7 @@
 				<li class="next"><a href="#">Next</a></li>
 			</ul>
 <pre class="prettyprint linenums small-text">
-<? cleanup_code('<ul class="pager">
+<?php cleanup_code('<ul class="pager">
 	<li class="previous"><a href="#">Previous</a></li>
 	<li class="next"><a href="#">Next</a></li>
 </ul>') ?>
@@ -82,7 +82,7 @@
 	</div>
 	<div class="span5">
 <pre class="prettyprint linenums small-text">
-<? cleanup_code('<ul class="breadcrumb">
+<?php cleanup_code('<ul class="breadcrumb">
 	<li><a href="#">Home</a></li>
 	<li><a href="#">Library</a></li>
 	<li class="active"><a href="#">Data</a></li>

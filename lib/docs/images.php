@@ -5,7 +5,7 @@
 		<p>By default, images are styled with rounded corners, and stretch to fit the width of their container.</p>
 		
 <pre class="prettyprint linenums">
-<? cleanup_code('<div class="frame-container">
+<?php cleanup_code('<div class="frame-container">
 	<div class="frame">
 		<img src="…" alt="…" />
 	</div>
@@ -36,7 +36,7 @@
 	
 		<h3 class="header-4">Bordered image</h3>
 <pre class="prettyprint small-text">
-<? cleanup_code('<div class="frame-container">
+<?php cleanup_code('<div class="frame-container">
 	<div class="frame bordered">
 		<img src="…" alt="…" />
 	</div>
@@ -51,7 +51,7 @@
 	<div class="span3">
 		<h3 class="header-4">Outset image</h3>
 <pre class="prettyprint small-text">
-<? cleanup_code('<div class="frame-container">
+<?php cleanup_code('<div class="frame-container">
 	<div class="frame outset">
 		<img src="…" alt="…" />
 	</div>
@@ -66,7 +66,7 @@
 	<div class="span3">
 		<h3 class="header-4">Inset image</h3>
 <pre class="prettyprint small-text">
-<? cleanup_code('<div class="frame-container">
+<?php cleanup_code('<div class="frame-container">
 	<div class="frame inset">
 		<img src="…" alt="…" />
 	</div>
@@ -90,7 +90,7 @@
 	<div class="span6">
 		<p>Add the class <code>.app</code> to the image to give it an app-like drop-shadow & rounded corners. Also include the class <code>.sheen</code> to give it a glossy gradient-overlay.</p>
 <pre class="prettyprint linenums">
-<? cleanup_code('<div class="frame-container">
+<?php cleanup_code('<div class="frame-container">
 	<a class="frame app sheen" href="">
 		<img src="…" alt="…" />
 	</a>
@@ -199,7 +199,7 @@
 	<div class="span10">
 		<h3>Fixed-width video</h3>
 <pre class="prettyprint linenums">
-<? cleanup_code('<div class="frame-container">
+<?php cleanup_code('<div class="frame-container">
     <div class="frame centered-media">
     	<!-- Youtube or Vimeo embed code -->
     </div>
@@ -226,7 +226,7 @@
 	<div class="span10">
 		<h3>Fluid-width video</h3>
 <pre class="prettyprint linenums">
-<? cleanup_code('<div class="frame-container">
+<?php cleanup_code('<div class="frame-container">
     <div class="frame fluid-media">
     	<!-- Youtube or Vimeo embed code -->
     </div>

@@ -1,7 +1,7 @@
 <h1 class="section-header">Commenting</h1>
 
 <pre class="prettyprint linenums">
-<? cleanup_code('<div class="comments">
+<?php cleanup_code('<div class="comments">
 	<header class="section-header">
 		<h2 class="header-4 pull-left">10 Comments</h2>
 		<a href="#comment-form" class="pull-right small-text">Leave a comment</a>
@@ -206,7 +206,7 @@
 			<h2>Replies</h2>
 			<p>Comments in reply get nested into the comment's <code>&lt;li&gt;</code></p>
 <pre class="prettyprint linenums">
-<? cleanup_code('<li>
+<?php cleanup_code('<li>
 	<div class="comment">…</div>
 	
 	<ol class="unstyled replies">

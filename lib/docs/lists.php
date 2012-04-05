@@ -9,7 +9,7 @@
 		<h2 class="header-4">Unordered lists</h2>
 		<p>
 <pre class="prettyprint linenums">
-<? cleanup_code('<ul>
+<?php cleanup_code('<ul>
 	<li>…</li>
 </ul>') ?>
 </pre>
@@ -33,7 +33,7 @@
 		<h2 class="header-4">Ordered lists</h2>
 		<p>
 <pre class="prettyprint linenums">
-<? cleanup_code('<ol>
+<?php cleanup_code('<ol>
 	<li>…</li>
 </ol>') ?>
 </pre>
@@ -55,7 +55,7 @@
 			<h2 class="header-4">Unstyled lists</h2>
 			<p>
 	<pre class="prettyprint linenums">
-<? cleanup_code('<ul class="unstyled-list">
+<?php cleanup_code('<ul class="unstyled-list">
 	<li>…</li>
 </ul>') ?>
 	</pre>
@@ -83,7 +83,7 @@
 		<h2 class="header-4">Lined-lists</h2>
 		<p>
 <pre class="prettyprint linenums small-text">
-<? cleanup_code('<ul class="lined-list">
+<?php cleanup_code('<ul class="lined-list">
 	<li>…</li>
 	<li>…</li>
 </ul>') ?>
@@ -104,7 +104,7 @@
 		<h2 class="header-4">Definition lists</h2>
 		<p>
 <pre class="prettyprint linenums small-text">
-<? cleanup_code('<dl>
+<?php cleanup_code('<dl>
 	<dt>…</dt>
 	<dd>…</dd>
 </dl>') ?>
@@ -125,7 +125,7 @@
 		<h2 class="header-4">Styled lists</h2>
 		<p>
 <pre class="prettyprint linenums small-text">
-<? cleanup_code('<ul class="styled-list">
+<?php cleanup_code('<ul class="styled-list">
 	<li>…</li>
 	<li>…</li>
 </ul>') ?>

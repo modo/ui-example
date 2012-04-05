@@ -1,7 +1,7 @@
 <h1 class="section-header">Tables</h1>			            	
 	<h2>Basic table markup</h2>
 <pre class="prettyprint linenums">
-<? cleanup_code('<table>
+<?php cleanup_code('<table>
 	<thead>
 		<tr>
 			<th>…</th>
@@ -34,7 +34,7 @@
     <div class="span4">
 		<h3 class="header-4">Minimal table</h3>
 <pre class="prettyprint linenums">
-<? cleanup_code('<table>
+<?php cleanup_code('<table>
 	…
 </table>') ?>
 </pre>
@@ -79,7 +79,7 @@
     <div class="span4">
 		<h3 class="header-4">Minimal table with borders</h3>
 <pre class="prettyprint linenums">
-<? cleanup_code('<table class="table-bordered">
+<?php cleanup_code('<table class="table-bordered">
 	…
 </table>') ?>
 </pre>
@@ -126,7 +126,7 @@
     <div class="span4">
 		<h3 class="header-4">Stylized table</h3>
 <pre class="prettyprint linenums">
-<? cleanup_code('<table class="table-stylized">
+<?php cleanup_code('<table class="table-stylized">
 	…
 </table>') ?>
 </pre>
@@ -172,7 +172,7 @@
     <div class="span4">
 		<h3 class="header-4">Zebra-striped table</h3>
 <pre class="prettyprint linenums">
-<? cleanup_code('<table class="table-stylized">
+<?php cleanup_code('<table class="table-stylized">
 	…
 </table>') ?>
 </pre>

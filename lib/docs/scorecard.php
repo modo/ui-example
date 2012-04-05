@@ -6,7 +6,7 @@
 <div class="row">
 	<div class="span7">
 <pre class="prettyprint linenums small-text">
-<? cleanup_code('<div class="mini-scorecard">
+<?php cleanup_code('<div class="mini-scorecard">
 	<header>
 		<h2 class="header-4">LEED Facts</h2>
 		<p class="cert"><!-- Cert --></p>
@@ -474,7 +474,7 @@
 <div class="row">
 	<div class="span7">
 <pre class="prettyprint linenums small-text">
-<? cleanup_code('<div class="interactive-scorecard span9">
+<?php cleanup_code('<div class="interactive-scorecard span9">
 	<div class="category [category-tag]">
 		<a href="#" data-toggle="collapse" data-target="#[category-tag]-breakdown"><!-- Category name --> <span class="pull-right score"><!-- Score --></span></a>
 		<ul class="unstyled collapse in" id="[category-tag]-breakdown">

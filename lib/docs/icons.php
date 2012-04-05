@@ -10,7 +10,7 @@
 		<h2 class="header-3">Basic markup</h2>
 		<p>Any property not set with a variant class will be inherited by it's parent (font-size, color, text-shadow, etc)</p>
 <pre class="prettyprint linenums">
-<? cleanup_code('<!-- Default icon -->
+<?php cleanup_code('<!-- Default icon -->
 <i class="icon-edit"></i>
 
 <!-- Icon with variant -->
@@ -195,7 +195,7 @@
 <div class="row">
 	<div class="span8">
 		<pre class="prettyprint linenums">
-<? cleanup_code('<i class="icon-social-facebook"></i>				<!-- Default 16x16 color icon -->
+<?php cleanup_code('<i class="icon-social-facebook"></i>				<!-- Default 16x16 color icon -->
 <i class="icon-social-facebook icon-large"></i>	 <!-- 32x32 color icon -->') ?>
 		</pre>
 	</div>

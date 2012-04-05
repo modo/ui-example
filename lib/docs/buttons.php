@@ -98,7 +98,7 @@
 	</div>
 	<div class="span10">		
 <pre class="prettyprint linenums small-text">
-<? cleanup_code('<div class="btn-row">
+<?php cleanup_code('<div class="btn-row">
 	<a class="btn btn-small" href="#">A</a>
 	<a class="btn btn-small btn-warning" href="#">B</a>
 	<a class="btn btn-small btn-danger" href="#">C</a>
@@ -125,7 +125,7 @@
 	</div>
 	<div class="span10">
 <pre class="prettyprint linenums small-text">
-<? cleanup_code('<div class="btn-group">
+<?php cleanup_code('<div class="btn-group">
 	<a class="btn btn-small" href="#">A</a>
 	<a class="btn btn-small btn-warning" href="#">B</a>
 	<a class="btn btn-small btn-danger" href="#">C</a>
@@ -162,7 +162,7 @@
 	</div>
 	<div class="span10">	
 <pre class="prettyprint linenums small-text">
-<? cleanup_code('<div class="btn-toolbar">
+<?php cleanup_code('<div class="btn-toolbar">
 	<div class="btn-group">
 		<a class="btn btn-small" href="#">A</a>
 		<a class="btn btn-small btn-warning" href="#">B</a>
@@ -200,7 +200,7 @@
 			</ul>
 		</div>
 <pre class="prettyprint linenums small-text">
-<? cleanup_code('<div class="btn-group">
+<?php cleanup_code('<div class="btn-group">
 	<a class="btn dropdown-toggle" data-toggle="dropdown" href="#">Action <span class="caret"></span></a>
 	<ul class="dropdown-menu">
 		<li><a href="#">Action</a></li>
@@ -229,7 +229,7 @@
 		</div>
 		
 <pre class="prettyprint linenums small-text">
-<? cleanup_code('<div class="btn-group">
+<?php cleanup_code('<div class="btn-group">
 	<a class="btn" href="#">Action</a>
 	<a class="btn dropdown-toggle" data-toggle="dropdown" href="#"><span class="caret"></span></a>
 	<ul class="dropdown-menu">

@@ -5,7 +5,7 @@
 			<div class="span4">
 				<h2 class="heading-3">Default</h2>
 <pre class="prettyprint linenums small-text">
-<? cleanup_code('<div class="progress">
+<?php cleanup_code('<div class="progress">
 	<div class="bar" style="width: 40%;"></div>
 </div>') ?>
 </pre>
@@ -15,7 +15,7 @@
 			<div class="span4">
 				<h2 class="heading-3">Padded</h2>
 <pre class="prettyprint linenums small-text">
-<? cleanup_code('<div class="progress progress-padded">
+<?php cleanup_code('<div class="progress progress-padded">
 	<div class="bar" style="width: 40%;"></div>
 </div>') ?>
 </pre>
@@ -29,7 +29,7 @@
 			<div class="span4">
 				<h2 class="heading-3">Striped</h2>
 <pre class="prettyprint linenums small-text">
-<? cleanup_code('<div class="progress progress-striped">
+<?php cleanup_code('<div class="progress progress-striped">
 	<div class="bar" style="width: 40%;"></div>
 </div>') ?>
 </pre>
@@ -39,7 +39,7 @@
 			<div class="span4">
 				<h2 class="heading-3">Animated</h2>
 <pre class="prettyprint linenums small-text">
-<? cleanup_code('<div class="progress progress-striped active">
+<?php cleanup_code('<div class="progress progress-striped active">
 	<div class="bar" style="width: 40%;"></div>
 </div>') ?>
 </pre>
@@ -51,7 +51,7 @@
 		
 		<h2 class="heading-3">Large</h2>
 <pre class="prettyprint linenums small-text">
-<? cleanup_code('<div class="progress progress-large">
+<?php cleanup_code('<div class="progress progress-large">
 	<div class="bar" style="width: 40%;"></div>
 </div>') ?>
 </pre>

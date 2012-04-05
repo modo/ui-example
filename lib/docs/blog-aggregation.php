@@ -50,7 +50,7 @@
 <div class="row">
 	<div class="span7">
 <pre class="prettyprint linenums">
-<? cleanup_code('<div class="blog-ag">
+<?php cleanup_code('<div class="blog-ag">
 	<ol class="ag-list ag-grid-view row">
         <li class="ag-item span4 block-link">	
         	<div class="box box-info">
@@ -135,7 +135,7 @@
 
 <h2>List view</h2>
 <pre class="prettyprint linenums">
-<? cleanup_code('<div class="blog-ag">
+<?php cleanup_code('<div class="blog-ag">
 	<ol class="ag-list ag-list-view">
         <li class="ag-item">	
         	<header class="section-header">

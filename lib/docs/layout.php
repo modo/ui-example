@@ -16,7 +16,7 @@
 	</div>
 </div>
 <pre class="prettyprint linenums">
-<? cleanup_code('<!doctype html>
+<?php cleanup_code('<!doctype html>
 <!--[if lt IE 7]> <html class="no-js ie6 ie oldie" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js ie7 ie oldie" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js ie8 ie oldie" lang="en"> <![endif]-->
@@ -101,7 +101,7 @@
 </div>
 
 <pre class="prettyprint linenums">
-<? cleanup_code('<div id="global-nav" class="navbar">
+<?php cleanup_code('<div id="global-nav" class="navbar">
 	<div class="navbar-inner">
 		<div class="container" style="width: auto;">
 			<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -132,7 +132,7 @@
 
 <h2>Header</h2>
 <pre class="prettyprint linenums">
-<? cleanup_code('<header id="global-header" class="row">
+<?php cleanup_code('<header id="global-header" class="row">
 	<div class="span9">
 		<!-- Logo -->
 	</div>
@@ -152,7 +152,7 @@
 	<div class="span5">
 		<h3 class="header-4">Logo</h3>
 <pre class="prettyprint linenums">
-<? cleanup_code('<h1 id="logo">
+<?php cleanup_code('<h1 id="logo">
 	<a href="#" class="logo">Site name</a> 
 	<a href="#" class="section">Site name 
 		<span>Sub-text</span>
@@ -163,7 +163,7 @@
 	<div class="span5">
 		<h3 class="header-4">Personal nav</h3>
 <pre class="prettyprint linenums">
-<? cleanup_code('<nav id="personalNav">
+<?php cleanup_code('<nav id="personalNav">
 	<ul class="nav nav-pills">
 		<li><a href="#">…</a></li>
 	</ul>
@@ -179,7 +179,7 @@
 		<h3 class="header-4">Section nav</h3>
 		<div class="alert alert-info small-text">In the event that a page does not have a section list, just leave the <code>&lt;ul&gt;</code> empty</div>
 <pre class="prettyprint linenums">
-<? cleanup_code('<nav id="section-nav" class="row">
+<?php cleanup_code('<nav id="section-nav" class="row">
 	<div class="span12">
 		<ul class="nav nav-list-horizontal">
 			<li><a href="#">…</a></li>
@@ -205,7 +205,7 @@
 	
 	<div class="span6">
 <pre class="prettyprint linenums">
-<? cleanup_code('<div id="content" class="row">
+<?php cleanup_code('<div id="content" class="row">
 	<div class="span2">
 		<nav id="sub-section-nav">
 			<!-- Add ".filter-nav" to ul for result pages (ie Store) -->
@@ -232,7 +232,7 @@
 
 <h2>Footer</h2>
 <pre class="prettyprint linenums">
-<? cleanup_code('<footer id="footer" class="row">
+<?php cleanup_code('<footer id="footer" class="row">
 	<div class="span12">
 		<div class="row">
 			<div class="span12">

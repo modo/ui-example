@@ -8,7 +8,7 @@
 		<div class="box">
 			<p>Creating a navigation list is as easy as adding <code>.nav</code> to any <code>&lt;ul&gt;</code>. There are two style varieties, <strong>tabs</strong> and <strong>pills</strong>, shown to the right.</p>
 <pre class="prettyprint linenums small-text">
-<? cleanup_code('<ul class="nav">
+<?php cleanup_code('<ul class="nav">
 	<li class="active"><a href="#">Home</a></li>
 	<li><a href="#">...</a></li>
 	<li><a href="#">...</a></li>
@@ -50,7 +50,7 @@
 	<div class="span3">
 		<h3 class="header-4">Stacked tabs</h3>
 <pre class="prettyprint small-text">
-<? cleanup_code('<ul class="nav nav-tabs nav-stacked">
+<?php cleanup_code('<ul class="nav nav-tabs nav-stacked">
 	...
 </ul>') ?>
 </pre>
@@ -63,7 +63,7 @@
 	<div class="span3">
 		<h3 class="header-4">Stacked pills</h3>
 <pre class="prettyprint small-text">
-<? cleanup_code('<ul class="nav nav-pills nav-stacked">
+<?php cleanup_code('<ul class="nav nav-pills nav-stacked">
 	...
 </ul>') ?>
 </pre>
@@ -83,7 +83,7 @@
 		<div class="box">
 			<p>For rich, drop down navigations, simply add the proper markup:</p>
 <pre class="prettyprint linenums small-text">
-<? cleanup_code('<ul class="nav nav-tabs">
+<?php cleanup_code('<ul class="nav nav-tabs">
 	<li class="dropdown">
 		<a class="dropdown-toggle" data-toggle="dropdown" href="#">
 			Dropdown <b class="caret"></b>
@@ -156,7 +156,7 @@
 	<div class="span6">
 		<h3 class="header-4">The markup</h3>
 <pre class="prettyprint linenums small-text">
-<? cleanup_code('<div class="tabbable">
+<?php cleanup_code('<div class="tabbable">
 	<ul class="nav nav-tabs">
 		<li class="active"><a href="#1" data-toggle="tab">Section 1</a></li>
 		<li><a href="#2" data-toggle="tab">Section 2</a></li>
@@ -196,7 +196,7 @@
 		</div>
 		
 <pre class="prettyprint linenums small-text">
-<? cleanup_code('<div class="tabbable tabs-left">
+<?php cleanup_code('<div class="tabbable tabs-left">
 	<ul class="nav nav-tabs">
 		...
 	</ul>
@@ -225,7 +225,7 @@
 		</div>
 		
 <pre class="prettyprint linenums small-text">
-<? cleanup_code('<div class="tabbable tabs-right">
+<?php cleanup_code('<div class="tabbable tabs-right">
 	<ul class="nav nav-tabs">
 		...
 	</ul>
@@ -244,7 +244,7 @@
 		<h4 class="header-5">Tabs on the bottom</h4>
 		<p>Flip the order of the HTML and add a class to put tabs on the bottom.</p>
 <pre class="prettyprint linenums small-text">
-<? cleanup_code('<div class="tabbable tabs-bottom">
+<?php cleanup_code('<div class="tabbable tabs-bottom">
 	<div class="tab-content">
 		...
 	</div>
@@ -301,7 +301,7 @@
 			</ul>
 		</div>
 <pre class="prettyprint linenums small-text">
-<? cleanup_code('<ul class="nav nav-list">
+<?php cleanup_code('<ul class="nav nav-list">
 	<li class="nav-header">List header</li>
 	<li class="active"><a href="#">Home</a></li>
 	<li><a href="#">Library</a></li>
@@ -326,7 +326,7 @@
 			</ul>
 		</div>
 <pre class="prettyprint linenums small-text">
-<? cleanup_code('<ul class="nav nav-list">
+<?php cleanup_code('<ul class="nav nav-list">
 	...
 	<li><a href="#"><i class="icon-book"></i> Library</a></li>
 	...
